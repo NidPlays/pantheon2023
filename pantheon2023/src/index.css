@@ -21,11 +21,15 @@
      width: 35%;
     }
   }
-  
+
   .custom-css-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     background: #232a34;
     opacity: 0.3;
+  }
+
+  .logo-text-abt {
+    font-family: 'CustomFont', Arial, sans-serif;
   }
