@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Video from "../assets/FORNID.mp4";
+import Video from "../assets/updated.mp4";
 import Image from "../assets/Pantheon.png"
 import Timer from "./Timer"
 
