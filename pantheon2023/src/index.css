@@ -3,11 +3,24 @@
 @tailwind components;
 @tailwind utilities;
 /* Google Fonts Import Link */
+@font-face {
+    font-family: "CustomFont";
+    src: url("../src/assets/Poseidon-gxxY1.ttf");
+}
 .navbar-container {
     display: flex;
     align-items: center;
     background: transparent;
     width: 100vw;
+}
+.logo-text {
+    font-size: 28px;
+    margin-left: 10px;
+    color: red;
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-weight: bold;
 }
 .nav-links {
   display: flex;
