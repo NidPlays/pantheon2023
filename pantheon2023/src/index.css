@@ -58,15 +58,6 @@
 
 
 
-  /* Footer CSS  below*/
-/* 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
 body {
   display: flex;
   background: #333;
@@ -189,4 +180,4 @@ body {
   100% {
     background-positon-x: 0px;
   }
-} */
+}
