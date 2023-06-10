@@ -27,4 +27,5 @@
     height: 100vh;
     object-fit: cover;
     background: #232a34;
+    opacity: 0.3;
   }

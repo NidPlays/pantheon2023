@@ -11,7 +11,7 @@ const HeroSection = () => {
 
   return (
     <div
-      className=" flex justify-center items-center h-screen absolute z-10 overflow-hidden top-0"
+      className="bg-black flex justify-center items-center h-screen absolute z-10 overflow-hidden top-0"
       data-aos="fade-in"
       id="home"
     >
