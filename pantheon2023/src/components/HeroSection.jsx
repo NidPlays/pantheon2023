@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Video from "../assets/backround_video.mp4";
 import Image from "../assets/Pantheon.png"
+import Timer from "./Timer"
 
 const HeroSection = () => {
   useEffect(() => {
@@ -30,6 +31,7 @@ const HeroSection = () => {
           data-aos="fade-in"
         >
           <img src={Image} alt="" className="h-72 w-72 relative z-50 inline-flex mr-6" />
+          <Timer />
         </div>
         <div className="mt-8 flex flex-col items-center">
         </div>
