@@ -7,7 +7,7 @@ import Carousel from "./components/Carousel"
 export default function App() {
   return (
     <>
-    <div className="bg-black">
+    <div className="bg-black overflow-x-hidden">
     <Navbar />
     <HeroSection />
     <About />
