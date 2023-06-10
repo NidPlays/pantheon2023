@@ -4,9 +4,11 @@ import About from "./components/About"
 export default function App() {
   return (
     <>
+    <div className="bg-black">
     <Navbar />
     <HeroSection />
     <About />
+    </div>
     </>
   )
 }
