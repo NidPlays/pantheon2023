@@ -2,7 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Google Fonts Import Link */
 @font-face {
     font-family: "CustomFont";
     src: url("../src/assets/Poseidon-gxxY1.ttf");
@@ -21,6 +20,15 @@
      width: 35%;
     }
   }
+  @media only screen and (max-width: 400px) {
+    .custom-css-about {
+      height: 120vh;
+     }
+   }
+
+   .custom-css-about {
+    margin-top: 100vh;
+   }
 
   .custom-css-video {
     width: 100vw;
@@ -33,3 +41,4 @@
   .logo-text-abt {
     font-family: 'CustomFont', Arial, sans-serif;
   }
+

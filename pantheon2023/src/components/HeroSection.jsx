@@ -12,7 +12,7 @@ const HeroSection = () => {
 
   return (
     <div
-      className="bg-black flex justify-center items-center h-screen absolute z-10 overflow-hidden top-0"
+      className="bg-black absolute flex justify-center items-center h-screen z-10 overflow-hidden top-0"
       data-aos="fade-in"
       id="home"
     >
@@ -32,8 +32,6 @@ const HeroSection = () => {
         >
           <img src={Image} alt="" className="h-72 w-72 relative z-50 inline-flex mr-6" />
           <Timer />
-        </div>
-        <div className="mt-8 flex flex-col items-center">
         </div>
       </div>
     </div>
