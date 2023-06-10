@@ -181,3 +181,89 @@ body {
     background-positon-x: 0px;
   }
 }
+
+.carousel-container {
+    min-height: 300px;
+    position: relative;
+    width: 320px;
+    margin: 0 auto 0 auto;
+    perspective: 1000px;
+}
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+}
+
+.carousel__face {
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+
+.carousel__face:nth-child(1) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs1NryOGua0JX7uRNjcWwfN_FqkTHf_r5Em314W-SOZA&usqp=CAU&ec=48665701");
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(2) {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/83/215/desktop-wallpaper-rohit-sharma-pull-shot-rohit-sharma-45.jpg");
+    transform: rotateY(40deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(3) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXhaHEAV3tOfdLyQ1nBvnFCQ_ZCC87ACmXto_UzWEYNA&usqp=CAU&ec=48665701");
+    transform: rotateY(80deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(4) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdFHQa6hjvnOuXWMgBUWdOqshdxDP5LOn0f_Rc4MnsA&usqp=CAU&ec=48665701");
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(5) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBhzQZRSawOqpCROAqwnQ1Y5ullACJ3ooss753VE8WA&usqp=CAU&ec=48665701");
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(6) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoTWFGizQCmyJ738iuAWoG4aDzZV9cYQe3YmZe3VBetQ&usqp=CAU&ec=48665701");
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(7) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyspVPWHdhVJG8T5wquhguLDjP4Y3J0KutSmgkPYhUCA&usqp=CAU&ec=48665701");
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(8) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmzJyEInbbHlg7_Zr2JUEHx6fsH9Gt83bOaos2oID84A&usqp=CAU&ec=48665701");
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(9) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLshS3fbSkSrRrzw9ohvjJsWuQnH6rU_JdQxGdNqkCQQ&usqp=CAU&ec=48665701");
+    transform: rotateY(320deg) translateZ(430px);
+}
+
+
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(-360deg);
+    }
+}
