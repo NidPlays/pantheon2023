@@ -1,7 +1,11 @@
 function Carousel() {
 
     return (
-        <div className="h-96">
+        <>
+        <div className="text-center text-white mt-5 heading-text">
+            Glimpses
+        </div>
+        <div className="height-container">
         <div className="carousel-container">
             <div className="carousel">
                 <div className="carousel__face"></div>
@@ -16,6 +20,7 @@ function Carousel() {
             </div>
         </div>
         </div>
+        </>
     )
 }
 
