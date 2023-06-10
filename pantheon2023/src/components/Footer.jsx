@@ -1,9 +1,10 @@
 import React from 'react'
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 function Footer() {
     return(
         <div>
-            <footer class="footer">
+  <footer class="footer">
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
@@ -12,16 +13,16 @@ function Footer() {
     </div>
     <ul class="social-icon">
       <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-facebook"></ion-icon>
+        <FaFacebook />
         </a></li>
       <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-twitter"></ion-icon>
+        <FaTwitter />
         </a></li>
       <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-linkedin"></ion-icon>
+        <FaLinkedin />
         </a></li>
       <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-instagram"></ion-icon>
+        <FaInstagram />
         </a></li>
     </ul>
     <ul class="menu">
@@ -34,8 +35,7 @@ function Footer() {
     </ul>
     <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
   </footer>
-
-        </div>
+          </div>
     )
 }
 
