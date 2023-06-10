@@ -7,6 +7,9 @@
     font-family: "CustomFont";
     src: url("../src/assets/Poseidon-gxxY1.ttf");
 }
+.icon-margin {
+    margin-top: 0.3rem;
+}
 .navbar-container {
     display: flex;
     align-items: center;
@@ -15,7 +18,7 @@
 }
 .logo-text {
     font-size: 28px;
-    margin-left: 10px;
+    margin-left: 20px;
     color: red;
     font-family: 'CustomFont', Arial, sans-serif;
     font-weight:normal;
