@@ -7,56 +7,16 @@
     font-family: "CustomFont";
     src: url("../src/assets/Poseidon-gxxY1.ttf");
 }
-.icon-margin {
-    margin-top: 0.3rem;
-}
-.navbar-container {
-    display: flex;
-    align-items: center;
-    background: transparent;
-    width: 100vw;
-}
 .logo-text {
-    font-size: 28px;
-    margin-left: 20px;
     color: red;
     font-family: 'CustomFont', Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
     font-weight: bold;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  padding: 20px 15px;
-  color: black;
-  margin-right: 20px;
-  justify-content: end;
-}
-.nav-links li {
-  list-style: none;
-  margin: 0 12px;
-}
-.nav-links li a {
-  position: relative;
-  color: black;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 6px 0;
-  text-decoration: none;
-}
-.nav-links li a:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 3px;
-  width: 0%;
-  background: red;
-  border-radius: 12px;
-  transition: all 0.4s ease;
-}
-.nav-links li a:hover:before {
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+   .logo-text {
+     width: 30%;
+    }
+  }
