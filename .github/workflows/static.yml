@@ -34,10 +34,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'npm'
-          cache-dependency-path: ./pantehon2023/package-lock.json
       - name: Install dependencies
-        working-directory: node-app
+        working-directory: pantheon2023
         run: npm install
       - name: Build
         working-directory: pantheon2023
