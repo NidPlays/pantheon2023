@@ -1,8 +1,4 @@
 
-import {MdOutlineHouse, MdEmojiEvents} from 'react-icons/md'
-import { GrGallery } from 'react-icons/gr'
-import { Link as a } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
 
 function Navbar() {
   return (
