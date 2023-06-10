@@ -30,8 +30,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: cd
-        run: cd ./pantheon2023/
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
@@ -39,8 +37,10 @@ jobs:
           cache: 'npm'
           cache-dependency-path: './pantehon2023/package-lock.json'
       - name: Install dependencies
+        working-directory: node-app
         run: npm install
       - name: Build
+        working-directory: node-app
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -48,7 +48,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: './dist'
+          path: './pantheon2023/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
