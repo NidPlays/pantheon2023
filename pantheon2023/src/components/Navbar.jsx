@@ -3,9 +3,9 @@ function Navbar() {
   return (
     <div className="navbar-container">
       <div className="nav-image">
-      <img loading="lazy" src={Pantheon} className="ml-6 relative z-10 h-24 w-24" />
+      <img loading="lazy" src={Pantheon} className="ml-6 relative z-10 h-28 w-28 mr-2" />
       </div>
-      <ul className="nav-links">
+      <ul className="nav-links ml-5">
         <li>
           <a href="#">Home</a>
         </li>
