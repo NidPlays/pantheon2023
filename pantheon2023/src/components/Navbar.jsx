@@ -7,7 +7,7 @@ function Navbar() {
         <div className="logo-text md:text-2xl sm:text-base inline-flex justify-start">
         Pantheon
       </div>
-            <a href="#" className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 transition-all mx-1.5 sm:mx-6">home</a>
+            <a href="#" className="border-b-2 border-transparent dark:hover:text-gray-200 hover:border-blue-500 transition-all mx-1.5 sm:mx-6">home</a>
     
             <a href="#" className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 transition-all mx-1.5 sm:mx-6">Events</a>
     
