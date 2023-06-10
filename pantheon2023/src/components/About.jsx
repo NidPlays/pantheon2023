@@ -30,7 +30,6 @@ function About() {
                     <span className="text-white">RNS Institute Of Technology</span>
                 </div>
             </div>
-
         </div>
         </div>
 

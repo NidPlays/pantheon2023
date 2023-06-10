@@ -15,9 +15,16 @@
     width: 100%;
     font-size: 24px;
 }
+.custom-css-nav-text {
+    font-size: 20px;
+}
 @media only screen and (max-width: 600px) {
    .logo-text {
      width: 35%;
+     font-size: 20px;
+    }
+    .custom-css-nav-text {
+        font-size: 16px;
     }
   }
   @media only screen and (max-width: 400px) {

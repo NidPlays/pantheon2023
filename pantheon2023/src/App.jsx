@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
 import About from "./components/About"
+import Contact from "./components/Contact"
 export default function App() {
   return (
     <>
@@ -8,6 +9,7 @@ export default function App() {
     <Navbar />
     <HeroSection />
     <About />
+    <Contact />
     </div>
     </>
   )
