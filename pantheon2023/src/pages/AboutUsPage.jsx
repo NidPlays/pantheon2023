@@ -120,8 +120,9 @@ function AboutUsPage() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row text-center min-[280px]:flex-row place-items-center justify-between gap-8 pt-12 pb-20 lg:flex-row">
-            <div className="flex flex-col justify-center w-full lg:w-5/12">
+        </div>
+        <div className="text-center place-items-center justify-between gap-8 pt-12 pb-20">
+            <div className="justify-center w-full">
               <h1 className="pb-4 text-3xl font-bold leading-9 text-red-600 lg:text-4xl">
                 Website Design By
               </h1>
@@ -155,7 +156,6 @@ function AboutUsPage() {
                             </div>
                         </div> */}
           </div>
-        </div>
         <Sponsors />                 
         <Footer />
       </div>
