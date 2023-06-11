@@ -1,6 +1,6 @@
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -40,24 +40,16 @@ function Footer() {
                 </ul>
                 <ul className="menu">
                     <Link to="/" className="menu__item">
-                        <a className="menu__link">
-                            Home
-                        </a>
+                        <a className="menu__link">Home</a>
                     </Link>
-                    <Link to="events" className="menu__item">
-                        <a className="menu__link">
-                            Events
-                        </a>
+                    <Link to="/events" className="menu__item">
+                        <a className="menu__link">Events</a>
                     </Link>
-                    <Link to="aboutus" className="menu__item">
-                        <a className="menu__link">
-                            About us
-                        </a>
+                    <Link to="/aboutus" className="menu__item">
+                        <a className="menu__link">About us</a>
                     </Link>
-                    <Link to="gallery" className="menu__item">
-                        <a className="menu__link">
-                            Gallery
-                        </a>
+                    <Link to="/gallery" className="menu__item">
+                        <a className="menu__link">Gallery</a>
                     </Link>
                     {/* <li className="menu__item">
                         <a className="menu__link" href="#contact">
