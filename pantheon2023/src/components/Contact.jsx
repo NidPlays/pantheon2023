@@ -200,6 +200,7 @@ function Contact() {
                                     method="POST"
                                     className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                                 >
+                                    {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" /> add link to thank you page @subramanya */}
                                     <input type="hidden" name="_template" value="table" />
                                     <div>
                                         <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
