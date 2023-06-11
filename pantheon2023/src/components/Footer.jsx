@@ -1,5 +1,6 @@
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
@@ -38,31 +39,31 @@ function Footer() {
                     </li>
                 </ul>
                 <ul className="menu">
-                    <li className="menu__item">
-                        <a className="menu__link" href="#">
+                    <Link to="/" className="menu__item">
+                        <a className="menu__link">
                             Home
                         </a>
-                    </li>
-                    <li className="menu__item">
-                        <a className="menu__link" href="#">
+                    </Link>
+                    <Link to="events" className="menu__item">
+                        <a className="menu__link">
                             Events
                         </a>
-                    </li>
-                    <li className="menu__item">
-                        <a className="menu__link" href="#">
+                    </Link>
+                    <Link to="aboutus" className="menu__item">
+                        <a className="menu__link">
                             About us
                         </a>
-                    </li>
-                    <li className="menu__item">
-                        <a className="menu__link" href="#">
+                    </Link>
+                    <Link to="gallery" className="menu__item">
+                        <a className="menu__link">
                             Gallery
                         </a>
-                    </li>
-                    <li className="menu__item">
+                    </Link>
+                    {/* <li className="menu__item">
                         <a className="menu__link" href="#contact">
                             Contact
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
                 <p>Dr. Vishnuvardhana Road Post, RNS Farms Rd, Channasandra, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098</p>
                 <p>&copy;2023 CAT TEAM | All Rights Reserved</p>

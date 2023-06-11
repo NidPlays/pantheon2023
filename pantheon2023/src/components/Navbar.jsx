@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { ImCross } from "react-icons/im"
 import { FaBars } from "react-icons/fa"
+import { Link } from "react-router-dom";
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
@@ -35,16 +36,16 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white ">
-                                <a href="javascript:void(0)">Home</a>
+                                <Link to="/">Home</Link>
                             </li>
                             <li className="text-white ">
-                                <a href="javascript:void(0)">Events</a>
+                                <Link to="/events">Events</Link>
                             </li>
                             <li className="text-white ">
-                                <a href="javascript:void(0)">About us</a>
+                                <Link to="/aboutus">About us</Link>
                             </li>
                             <li className="text-white ">
-                                <a href="javascript:void(0)">Gallery</a>
+                                <Link to="gallery">Gallery</Link>
                             </li>
                         </ul>
                     </div>

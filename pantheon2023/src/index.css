@@ -122,13 +122,6 @@ li a:hover:before {
     justify-content: center;
 }
 
-body {
-    display: flex;
-    background: #333;
-    justify-content: flex-end;
-    align-items: flex-end;
-    min-height: 100vh;
-}
 
 .footer {
     position: relative;
