@@ -106,23 +106,32 @@ function Contact() {
                                 </div>
                                 <h3 className="text-lg font-medium text-white">Contact information</h3>
                                 <p className="max-w-3xl mt-6 text-base text-indigo-50">
-                                    Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+                                    Contact us for any queries regarding the event or the website. We will get back to you as soon as possible.
                                 </p>
                                 <dl className="mt-8 space-y-6">
                                     <dt>
                                         <span className="sr-only">Phone number</span>
                                     </dt>
                                     <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">+1 (555) 123-4567</span>
+                                        <span className="ml-3">Teacher Coordinator (Mr. Sridhar S): +91 97316 69372 </span>
+                                    </dd>
+                                    <dd className="flex text-base text-indigo-50">
+                                        <span className="ml-3">Student Coordinator (Disha Shankar): +91 98868 36062 </span>
+                                    </dd>
+                                    <dd className="flex text-base text-indigo-50">
+                                        <span className="ml-3">Student Coordinator (Adithya R Pai): +91 79758 16332 </span>
                                     </dd>
                                     <dt>
                                         <span className="sr-only">Email</span>
                                     </dt>
                                     <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">support@workcation.com</span>
+                                        <span className="ml-3">catrnsitofficial@gmail.com</span> {/* TODO add this as links*/}
+                                    </dd>
+                                    <dd className="flex text-base text-indigo-50">
+                                        <span className="ml-3">Instagram: Cat_rnsit</span> {/* TODO add this as links*/}
                                     </dd>
                                 </dl>
-                                <ul role="list" className="flex mt-8 space-x-12">
+                                {/* <ul role="list" className="flex mt-8 space-x-12">
                                     <li>
                                         <a className="text-indigo-200 hover:text-indigo-100" href="#">
                                             <span className="sr-only">Facebook</span>
@@ -180,13 +189,18 @@ function Contact() {
                                             </svg>
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
 
                             {/* Contact form */}
                             <div className="px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
                                 <h3 className="text-lg font-medium text-gray-900">Send us a message</h3>
-                                <form action="#" method="POST" className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                                <form
+                                    action="https://formsubmit.co/catrnsitofficial@gmail.com"
+                                    method="POST"
+                                    className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+                                >
+                                    <input type="hidden" name="_template" value="table" />
                                     <div>
                                         <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
                                             First name
