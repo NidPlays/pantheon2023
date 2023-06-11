@@ -30,7 +30,7 @@ const HeroSection = () => {
           className="bg-transparent text-white text-5xl font-semibold text-center font-Montserrat custom-css-hero-h1"
           data-aos="fade-in"
         >
-          <img src={Image} alt="" className="h-72 w-72 relative z-50 inline-flex mr-6" />
+          <img src={Image} alt="" className="h-72 w-72 relative z-50 inline-flex mr-6 lg:h-96 lg:w-96 xl:h-96 xl:w-96" />
           <Timer />
         </div>
       </div>
