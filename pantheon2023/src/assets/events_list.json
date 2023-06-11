@@ -223,16 +223,40 @@
             "participants_per_team": "6-14",
             "registration_fee": "Rs.1200",
             "prize_amount": {
-                "1st Prize": "Rs.14,000",
-                "2nd Prize": "Rs.7,000"
+                "1st": "Rs.14,000",
+                "2nd": "Rs.7,000"
             },
             "venue": "Main Stage",
             "day": "2",
             "time": "11:00-1:30",
-            "coordinator": {
-                "name": "Rakshith",
-                "contact": "9663513045"
-            }
+            "coordinator": [
+                {
+                    "name": "Rakshith",
+                    "contact": "9663513045"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "event_name": "Smoked'23 - Harmony's Ensemble",
+            "category": "Dance",
+            "common_name": "Harmony's Ensemble",
+            "description": "Come participate in the ever transfixing Smoked'23! The riveting contest has two enthralling events: 2 on 2 - All styles, 1 v 1 - Breaking. ",
+            "participants_per_team": 1,
+            "registration_fee": "Rs.300",
+            "prize_amount": {
+                "1st": "1st. Rs.8000 for 2 on 2- All styles ",
+                "2nd": "2nd. Rs.6000 for 1 v 1 breaking "
+            },
+            "venue": "Mech Quadrangle",
+            "day": "2",
+            "time": "1:00-3:00",
+            "coordinator": [
+                {
+                    "name": "Pranav Vashisht",
+                    "contact": "9916225316"
+                }
+            ]
         }
     ]
 }
