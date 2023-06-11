@@ -50,7 +50,6 @@ li a:hover:before {
     font-style:normal;
     font-weight: bold;
     color: red;
-    font-size: 24px;
 }
 @media (max-width: 768px) {
   .custom-mobile-icon {

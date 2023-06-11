@@ -2,7 +2,7 @@ function Carousel() {
 
     return (
         <>
-        <div className="text-center text-white mt-5 heading-text">
+        <div className="text-center text-white mt-5 heading-text text-4xl">
             Glimpses
         </div>
         <div className="height-container">
