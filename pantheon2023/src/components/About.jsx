@@ -31,7 +31,7 @@ function About() {
                 </div>
                 {/* Buttons */}
 
-                <div className="flex flex-col items-center gap-2 w-full lg:flex-row mt-8 mb-40 md:mb-2 lg:mb-2">
+                <div className="flex flex-col items-center gap-2 w-full lg:flex-row mt-8 mb-36 md:mb-2 lg:mb-2">
                     {/* 1st section */}
                     <div className="w-1/2 flex-col">
                     <h1 className="mx-auto  max-w-4xl font-display text-3xl text-center font-medium tracking-tight text-slate-100 sm:text-4xl">
