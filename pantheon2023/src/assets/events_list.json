@@ -1,6 +1,29 @@
 {
     "events": [
         {
+            "id": 0,
+            "event_name": "Buy Tickets for PRO Night Day 1 & Day 2",
+            "category": "PRO Night",
+            "common_name": "PRO Night",
+            "description": "Day 1 Artist: coooolnamehere, Day 2 DJ: coooolnamehere",
+            "time_limit": "NA",
+            "participants_per_team": "NA",
+            "registration_fee": "Rs. 400",
+            "prize_amount": {
+                "1st": "NA",
+                "2nd": "NA"
+            },
+            "venue": "Main Stage, B Ground",
+            "day": "1,2",
+            "time": "6:00-8:00",
+            "coordinator": [
+                {
+                    "name": "NA",
+                    "contact": "NA"
+                }
+            ]
+        },
+        {
             "id": 1,
             "event_name": "Orpheus' Song - Western Vocal Solo",
             "category": "Music",
@@ -243,7 +266,7 @@
             "common_name": "Harmony's Ensemble",
             "description": "Come participate in the ever transfixing Smoked'23! The riveting contest has two enthralling events: 2 on 2 - All styles, 1 v 1 - Breaking. ",
             "participants_per_team": "1",
-            "time_limit": "2+1 minutes",
+            "time_limit": "NA",
             "registration_fee": "Rs.300",
             "prize_amount": {
                 "1st": "1st. Rs.8000 for 2 on 2- All styles ",
