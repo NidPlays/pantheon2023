@@ -196,7 +196,7 @@ function Contact() {
                             <div className="px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
                                 <h3 className="text-lg font-medium text-gray-900">Send us a message</h3>
                                 <form
-                                    action="https://formsubmit.co/catrnsitofficial@gmail.com"
+                                    action="https://formsubmit.co/4a3ce1894196cc0f67ea738410c107d5"
                                     method="POST"
                                     className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                                 >
