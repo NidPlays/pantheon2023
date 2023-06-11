@@ -113,13 +113,16 @@ function Contact() {
                                         <span className="sr-only">Phone number</span>
                                     </dt>
                                     <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">Teacher Coordinator (Mr. Sridhar S): +91 97316 69372 </span>
+                                        <span className="ml-3">Teacher Coordinator (Mr. Sridhar S): +91 97316 69372 </span>{" "}
+                                        {/* TODO FORMAT and add this as links*/}
                                     </dd>
                                     <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">Student Coordinator (Disha Shankar): +91 98868 36062 </span>
+                                        <span className="ml-3">Student Coordinator (Disha Shankar): +91 98868 36062 </span>{" "}
+                                        {/* TODO FORMAT and  add this as links*/}
                                     </dd>
                                     <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">Student Coordinator (Adithya R Pai): +91 79758 16332 </span>
+                                        <span className="ml-3">Student Coordinator (Adithya R Pai): +91 79758 16332 </span>{" "}
+                                        {/* TODO FORMAT and add this as links*/}
                                     </dd>
                                     <dt>
                                         <span className="sr-only">Email</span>
