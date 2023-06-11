@@ -4,6 +4,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Carousel from "./components/Carousel"
+import Artists from "./components/Artists"
 export default function App() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function App() {
     <HeroSection />
     <About />
     <Carousel />
+    <Artists />
     <Contact />
     <Footer />
     </div>
