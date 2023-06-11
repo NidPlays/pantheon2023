@@ -15,7 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/aboutus" element={<AboutUsPage />} />
-                <Route path="*" component={<App />} />
+                <Route path="*" element={<App />} />
+                {/* Make 404 page */}
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
