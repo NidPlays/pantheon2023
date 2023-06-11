@@ -1,15 +1,16 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import hanu from "../assets/hanu.jpg";
 import shivu from "../assets/shivu.jpg";
+import brodhav from "../assets/brodhav.jpeg";
 
 function Artists() {
     return (
         <div className="container px-6 py-12 mx-auto">
             <div className="flex flex-col items-center justify-center w-full">
                 <h1 className="text-2xl font-bold leading-normal tracking-wide text-center text-gray-100 lg:text-4xl xl:text-6xl">Our Artists</h1>
-                <p className="py-3 font-normal text-center text-gray-100 lg:text-2xl tracking-tightt lg:leading-9 lg:w-3/5 f-f-l">
+                {/* <p className="py-3 font-normal text-center text-gray-100 lg:text-2xl tracking-tightt lg:leading-9 lg:w-3/5 f-f-l">
                     Dive into our projects from small businesses to Enterprise solutions. Record of delivering
-                </p>
+                </p> */}
             </div>
             <div className="mt-5 lg:mt-24">
                 <div className="flex flex-col items-center lg:flex-row lg:justify-between pb-14">
@@ -30,10 +31,10 @@ function Artists() {
                             </div>
                         </div>
                         <div className="z-10 hidden mt-4 ml-3 lg:ml-4 lg:mt-4 lg:block">
-                            <img className="w-full" src={hanu} alt />
+                            <img className="w-full" src={brodhav} alt />
                         </div>
                         <div className="block w-full lg:hidden">
-                            <img className="w-full" src={hanu} alt />
+                            <img className="w-full" src={brodhav} alt />
                         </div>
                     </div>
                     <div className="flex items-center lg:w-1/2">
@@ -44,18 +45,17 @@ function Artists() {
                         </div>
                         <div className="lg:pt-0 lg:pt-5">
                             <div className="py-4 text-2xl font-normal text-center text-gray-200 lg:text-left f-f-d-s lg:text-3xl xl:text-5xl">
-                                HanuMankind
+                                Brodha V
                             </div>
                             <div className="py-3 text-base font-normal text-center text-gray-100 xl:text-2xl lg:text-left xl:leading-9 f-f-l">
-                                Hanumankind is the lyrical rap identity donned by Sooraj Cherukat who’s made a splash of a debut not too long ago.
-                                With the debut festival performance at NH7 coinciding with his first release from his debut EP 'Kalari' set the stage
-                                for cementing his position as an undeniable force in the space of up and coming independent artists in the
-                                subcontinent.
+                                Brodha V is an Indian rapper, songwriter, and music producer known for his unique style that blends traditional Indian
+                                sounds with contemporary hip-hop and rap. Born Vighnesh Shivanand in Bangalore, India, Brodha V gained popularity with
+                                his impressive wordplay, rapid-fire delivery, and charismatic stage presence.
                             </div>
                             <div className="flex justify-center w-full lg:block">
-                                <a target="_blank" href="https://www.thewildcity.com/artists/17622-hanumankind">
+                                <a target="_blank" href="https://www.instagram.com/brodhav/?hl=en" rel="noreferrer">
                                     <button className="pt-8 text-base font-bold text-white border-b-2 border-red-500 lg:text-2xl focus:outline-none f-f-l">
-                                        View Project
+                                        View Artist
                                     </button>
                                 </a>
                             </div>
@@ -72,14 +72,13 @@ function Artists() {
                                 Shiva Manvi
                             </div>
                             <div className="py-3 text-base font-normal text-center text-gray-100 xl:text-2xl lg:text-left xl:leading-9 f-f-l">
-                                Shiva Manvi is a wedding DJ headquartered in Bangalore's South Bangalore neighborhood with an experience of more than
-                                5 years. If you want to entertain your guests, it is a popular choice for giving DJ services. While you proceed with
-                                your wedding procedures and ceremonies, music will keep your guests entertained.
+                                Shiva Manvi is an Indian DJ known for his contributions to the electronic dance music (EDM) scene. With a passion for
+                                music and an affinity for mixing tracks, Shiva Manvi has established himself as a talented DJ with a growing fan base.
                             </div>
                             <div className="flex justify-center w-full lg:block">
-                                <a href="https://shivamanvi.com" target="_blank">
+                                <a href="https://shivamanvi.com" target="_blank" rel="noreferrer">
                                     <button className="pt-8 text-base font-bold text-white border-b-2 border-red-500 lg:text-2xl focus:outline-none f-f-l">
-                                        View Project
+                                        View Artist
                                     </button>
                                 </a>
                             </div>
