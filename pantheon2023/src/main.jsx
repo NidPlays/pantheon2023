@@ -15,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/aboutus" element={<AboutUsPage />} />
+                <Route path="*" component={<App />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
