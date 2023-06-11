@@ -144,6 +144,27 @@
                 "name": "Yash",
                 "contact": "8088952282"
             }
+        },
+        {
+            "id": 8,
+            "event_name": "The Natyashastra - Classical Dance Solo",
+            "category": "Dance",
+            "common_name": "Classical Dance Solo",
+            "description": "Bharata Muni coded the Natyashastra as a guide for performers. Induce various 'Rasa' among the audience with your mesmerizing 'Bhava'. The event invites participants to showcase their skills in classical dance forms and captivate the viewers. Judgement is based on tala, technique, rhythm, abhinaya, costume, footwork and overall impression. Participants must bring a pen drive with a copy of their music. The track must be uploaded to the drive link after registration.",
+            "time_limit": "5+1 minutes",
+            "participants_per_team": 1,
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.2000",
+                "2nd": "Rs.1000"
+            },
+            "venue": "Main Stage",
+            "day": "1",
+            "time": "12:00-1:30",
+            "coordinator": {
+                "name": "Kaarunya",
+                "contact": "9019550305"
+            }
         }
     ]
 }
