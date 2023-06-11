@@ -5,6 +5,7 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Carousel from "./components/Carousel"
 import Artists from "./components/Artists"
+import Sponsors from "./components/Sponsors"
 export default function App() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function App() {
     <Carousel />
     <Artists />
     <Contact />
+    <Sponsors />
     <Footer />
     </div>
     </>

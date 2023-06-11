@@ -125,7 +125,7 @@ li a:hover:before {
 .footer {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: rgb(255, 30, 0);
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -190,6 +190,7 @@ li a:hover:before {
     height: 100px;
     background: url("https://i.ibb.co/wQZVxxk/wave.png");
     background-size: 1000px 100px;
+    filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg) brightness(95%) contrast(118%);
 }
 
 .wave#wave1 {

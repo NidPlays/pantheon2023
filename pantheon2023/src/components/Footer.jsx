@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <div>
+        <div className="pt-3">
             <footer className="pb-5 footer">
                 <div className="waves">
                     <div className="wave" id="wave1"></div>

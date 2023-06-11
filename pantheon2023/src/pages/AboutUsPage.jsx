@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Sponsors from "../components/Sponsors";
 import Footer from "../components/Footer";
 
 function AboutUsPage() {
@@ -113,7 +114,7 @@ function AboutUsPage() {
                         </div> */}
                     </div>
                 </div>
-
+                <Sponsors />
                 <Footer />
             </div>
         </>
