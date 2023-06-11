@@ -115,15 +115,15 @@ function Contact() {
                                         <span className="sr-only">Phone number</span>
                                     </dt>
                                     <dd className="flex-col text-base text-indigo-50">
-                                        <a href="tel:9731669372">Teacher Coordinator (Mr. Sridhar S):<div>+91 97316 69372 </div></a>{" "}
+                                        <a href="tel:9731669372">Teacher Coordinator<div>Mr. Sridhar S :- +91 97316 69372 </div></a>{" "}
                                         {/* TODO FORMAT and add this as links*/}
                                     </dd>
                                     <dd className="flex-col text-base text-indigo-50">
-                                        <a href="tel:9886836062">Student Coordinator (Disha Shankar):<div>+91 98868 36062 </div></a>{" "}
+                                        <a href="tel:9886836062">Student Coordinator<div>Disha Shankar :- +91 98868 36062 </div></a>{" "}
                                         {/* TODO FORMAT and  add this as links*/}
                                     </dd>
                                     <dd className="flex-col text-base text-indigo-50">
-                                        <a href="tel:7975816332">Student Coordinator (Adithya R Pai):<div> +91 79758 16332 </div></a>{" "}
+                                        <a href="tel:7975816332">Student Coordinator:<div>Adithya R Pai :- +91 79758 16332 </div></a>{" "}
                                         {/* TODO FORMAT and add this as links*/}
                                     </dd>
                                     <dt>
