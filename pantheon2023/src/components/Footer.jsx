@@ -1,4 +1,5 @@
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
     return (
@@ -11,7 +12,7 @@ function Footer() {
                     <div className="wave" id="wave4"></div>
                 </div>
                 <ul className="social-icon">
-                    <li className="social-icon__item">
+                    {/* <li className="social-icon__item">
                         <a className="social-icon__link" href="#">
                             <FaFacebook />
                         </a>
@@ -20,14 +21,18 @@ function Footer() {
                         <a className="social-icon__link" href="#">
                             <FaTwitter />
                         </a>
-                    </li>
+                    </li> */}
                     <li className="social-icon__item">
-                        <a className="social-icon__link" href="#">
-                            <FaLinkedin />
+                        <a
+                            className="social-icon__link"
+                            href="mailto:catrnsitofficial@gmail.com
+"
+                        >
+                            <AiOutlineMail />
                         </a>
                     </li>
                     <li className="social-icon__item">
-                        <a className="social-icon__link" href="#">
+                        <a className="social-icon__link" href="https://www.instagram.com/cat_rnsit/">
                             <FaInstagram />
                         </a>
                     </li>
