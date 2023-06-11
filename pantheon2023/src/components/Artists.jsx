@@ -8,7 +8,7 @@ function Artists() {
     return (
         <div className="container px-6 py-12 mx-auto">
             <div className="flex flex-col items-center justify-center w-full">
-                <h1 className="text-2xl font-bold leading-normal tracking-wide text-center text-gray-100 lg:text-4xl xl:text-6xl">Our Artists</h1>
+                <h1 className="text-4xl md:text-6xl xl:text-7xl font-bold leading-normal heading-text tracking-wide text-center text-gray-100 lg:text-4xl">Artists</h1>
                 {/* <p className="py-3 font-normal text-center text-gray-100 lg:text-2xl tracking-tightt lg:leading-9 lg:w-3/5 f-f-l">
                     Dive into our projects from small businesses to Enterprise solutions. Record of delivering
                 </p> */}

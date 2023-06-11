@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import Carousel from "./components/Carousel"
 import Artists from "./components/Artists"
 import Sponsors from "./components/Sponsors"
+import ScrollToTopButton from "./components/ScrollToTop"
 export default function App() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function App() {
     <Contact />
     <Sponsors />
     <Footer />
+    <ScrollToTopButton />
     </div>
     </>
   )
