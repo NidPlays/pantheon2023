@@ -243,6 +243,7 @@
             "common_name": "Harmony's Ensemble",
             "description": "Come participate in the ever transfixing Smoked'23! The riveting contest has two enthralling events: 2 on 2 - All styles, 1 v 1 - Breaking. ",
             "participants_per_team": 1,
+            "time_limit": "2+1 minutes",
             "registration_fee": "Rs.300",
             "prize_amount": {
                 "1st": "1st. Rs.8000 for 2 on 2- All styles ",
@@ -255,6 +256,28 @@
                 {
                     "name": "Pranav Vashisht",
                     "contact": "9916225316"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "event_name": "Clash of Muses - The Battle of Bands",
+            "category": "Music",
+            "common_name": "Battle of Bands",
+            "description": "The nine Greek muses protected the arts and entertained gods. Haul your instruments and prep your voices to perform the best composition yet!. All equipment is to be brought by the teams. Only Drum kit will be provided. Own compositions will have more weightage for scoring.",
+            "time_limit": "12+3 minutes (Inclusive of set-up time)",
+            "participants_per_team": "7+2",
+            "registration_fee": "Rs.2500",
+            "prize_amount": {
+                "1st": "Rs.10000"
+            },
+            "venue": "Main Stage",
+            "day": "2",
+            "time": "2:30-4:30",
+            "coordinator": [
+                {
+                    "name": "Sumanth",
+                    "contact": "9071179984"
                 }
             ]
         }
