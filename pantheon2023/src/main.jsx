@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Events from '../src/components/Events.jsx'
-import Gallery from '../src/components/Gallery.jsx'
-import AboutUs from '../src/components/AboutUs.jsx'
+import EventsPage from '../src/pages/EventsPage.jsx'
+import AboutUsPage from '../src/pages/AboutUsPage.jsx'
+import GalleryPage from '../src/pages/GalleryPage.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,9 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <BrowserRouter>
             <Routes>
                 <Route exact path='/' element={<App />} />
-                <Route path="/events" element={<Events />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/aboutus" element={<AboutUs />} />
+                <Route path="/events" element={<EventsPage />} />
+                <Route path="/gallery" element={<GalleryPage />} />
+                <Route path="/aboutus" element={<AboutUsPage />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
