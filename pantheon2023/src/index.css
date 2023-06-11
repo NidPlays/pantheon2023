@@ -13,6 +13,28 @@
     font-family: "CustomFont";
     src: url("../src/assets/Poseidon-gxxY1.ttf");
 }
+li a {
+  position: relative;
+  color: white;
+
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+ li a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: red;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+li a:hover:before {
+  width: 100%;
+}
 .logo-text {
     color: red;
     font-family: 'CustomFont', Arial, sans-serif;
@@ -29,6 +51,39 @@
     font-weight: bold;
     color: red;
     font-size: 24px;
+}
+@media (max-width: 768px) {
+  .custom-mobile-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.35rem;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+@media (max-width: 768px) {
+  .custom-nav-menu {
+    display: none;
+  }
+}
+.custom-css-nav-item::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  right: 0;
+  position: absolute;
+  background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+  transition: width 0.5s ease 0s, right 0.5s ease 0s;
+  width: 0;
+}
+.custom-css-nav-item::hover::after {
+  right: 0;
+  width: 100%;
 }
 .custom-css-nav-text {
     font-size: 20px;
