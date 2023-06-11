@@ -7,7 +7,7 @@
             "common_name": "Western Vocal Solo",
             "description": "The myth of Orpheus speaks of a man so talented he moved nature with his music. In the 'Orpheus' Song' event, participants will have the opportunity to showcase their exceptional singing skills and aim to surpass the legendary Orpheus in talent. The event welcomes participants to charm the crowd with their captivating vocal performances. Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "time_limit": "4+1 minutes",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "registration_fee": "Rs.150",
             "prize_amount": {
                 "1st": "Rs.1000",
@@ -30,7 +30,7 @@
             "common_name": "Classical Vocal Solo",
             "description": "Goddess Saraswathi is the goddess of music in accordance with Indian Mythology. Enthral the goddess and the crowd with mesmerizing Classical renditions. Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts. Styles Allowed: Carnatic / Hindustani",
             "time_limit": "5+1 minutes",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "registration_fee": "Rs.150",
             "prize_amount": {
                 "1st": "Rs.1000",
@@ -53,7 +53,7 @@
             "common_name": "Semi-Classical Solo",
             "description": "The ancient celestial beings, Gandharvas, were known for their soothing and mesmerizing voices. Throw the audience into a trance with your alluring singing. 1 accompanist allowed (Acoustic)",
             "time_limit": "4+1 minutes",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "registration_fee": "Rs. 150",
             "prize_amount": {
                 "1st": "Rs. 1000",
@@ -76,7 +76,7 @@
             "common_name": "Indian Cinema Solo",
             "description": "Transport the audience into the world of trance by combining the enchantment of cinema with the evocative power of music! Perform your silver screen melody and captivate the crowd! Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "time_limit": "4+1 minutes",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "registration_fee": "Rs.150",
             "prize_amount": {
                 "1st": "Rs.1000",
@@ -99,7 +99,7 @@
             "common_name": "Instrumental Solo",
             "description": "The Greek god of music is recognized by his golden lyre, the first ever made. Bring forth your best instrument (percussion or non-percussion) and dazzle the audience. No background track allowed. 1 accompanist permitted",
             "time_limit": "4+1 minutes",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "registration_fee": "Rs.150",
             "prize_amount": {
                 "1st": "Rs.1000",
@@ -122,7 +122,7 @@
             "common_name": "Rap Battle",
             "description": "The Titans and Olympians fought a lasting war of prowess. It is your turn to fight your battle of music and wit by putting your rap skillset to the test. No vulgar words are allowed during the perforamnce.The event consists of 2 rounds. In the first round, participants will perform individually with a time limit of 1-2 minutes. The second round will be a one-on-one face-off between two participants.",
             "registration_fee": "Rs.150",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "prize_amount": {
                 "1st": "Rs.1000",
                 "2nd": "Rs.500"
@@ -144,7 +144,7 @@
             "common_name": "Beatboxing",
             "description": "Captivate the crowd with your extraordinary beatboxing skills and bring the instrumental beats to life using your own vocal chords.The event consists of 2 rounds. In the first round, participants will perform individually with a time limit of 1-2 minutes. The second round will be a one-on-one face-off between two participants.",
             "registration_fee": "Rs.150",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "prize_amount": {
                 "1st": "Rs.1000",
                 "2nd": "Rs.500"
@@ -166,7 +166,7 @@
             "common_name": "Classical Dance Solo",
             "description": "Bharata Muni coded the Natyashastra as a guide for performers. Induce various 'Rasa' among the audience with your mesmerizing 'Bhava'. The event invites participants to showcase their skills in classical dance forms and captivate the viewers. Judgement is based on tala, technique, rhythm, abhinaya, costume, footwork and overall impression. Participants must bring a pen drive with a copy of their music. The track must be uploaded to the drive link after registration.",
             "time_limit": "5+1 minutes",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "registration_fee": "Rs.200",
             "prize_amount": {
                 "1st": "Rs.2000",
@@ -189,14 +189,14 @@
             "common_name": "Western Dance Solo",
             "description": "Pay homage to the very goddess of rhythm with awe-inspiring moves. Turn heads and induce hollers among the audience with your dynamic performance. The event invites participants to showcase their skills in Western dance forms and leave a lasting impression on the viewers. Participants are to submit their respective audio tracks in a pen drive 1 hour prior to the commencement of the event.",
             "time_limit": "3+1 minutes",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "registration_fee": "Rs.200",
             "prize_amount": {
                 "1st": "Rs.3000",
                 "2nd": "Rs.1500"
             },
             "venue": "Mechanical Block Quadrangle",
-            "day": "1",
+            "day": "2",
             "time": "12:00-2:00",
             "coordinator": [
                 {
@@ -242,15 +242,15 @@
             "category": "Dance",
             "common_name": "Harmony's Ensemble",
             "description": "Come participate in the ever transfixing Smoked'23! The riveting contest has two enthralling events: 2 on 2 - All styles, 1 v 1 - Breaking. ",
-            "participants_per_team": 1,
+            "participants_per_team": "1",
             "time_limit": "2+1 minutes",
             "registration_fee": "Rs.300",
             "prize_amount": {
                 "1st": "1st. Rs.8000 for 2 on 2- All styles ",
-                "2nd": "2nd. Rs.6000 for 1 v 1 breaking "
+                "2nd": "1st. Rs.6000 for 1 v 1 breaking "
             },
             "venue": "Mech Quadrangle",
-            "day": "2",
+            "day": "1",
             "time": "1:00-3:00",
             "coordinator": [
                 {
@@ -278,6 +278,28 @@
                 {
                     "name": "Sumanth",
                     "contact": "9071179984"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "event_name": "Fashion Odyssey - Fashion Show",
+            "category": "Fashion",
+            "common_name": "Fashion Show",
+            "description": "Aphrodite had once felt challenged by a mortal by the name Psyche due to her unmatched beauty. Walk the ramp with utmost allure and invoke phrodite's envy yet again. Open theme (teams are free to design their clothes and props). Judgment will be based on : Theme integration, Creativity with props Clothing, Choreography and Overall presentation. Walking barefoot is not allowed.Any form of vulgarity leads to disqualification. No gender restriction on team constitution. The teams should report 2 hours before the commencement of the event. The teams should be ready 30 minutes prior to the commencement of the event. Teams are to inform the coordinators of any kinds of props, they plan to use. Teams are to submit their respective audio/video tracks in a pen drive 1 hour prior to the commencement of the event. Also need to upload the audio/videos tracks to the drive link shared one day prior",
+            "time_limit": "8+2 minutes (Inclusive of preparation time)",
+            "participants_per_team": "10+2",
+            "registration_fee": "Rs.2500",
+            "prize_amount": {
+                "1st": "Rs.25000"
+            },
+            "venue": "Main Stage",
+            "day": "1",
+            "time": "3:00-5:00",
+            "coordinator": [
+                {
+                    "name": "Adithya Pai",
+                    "contact": "7975816332"
                 }
             ]
         }
