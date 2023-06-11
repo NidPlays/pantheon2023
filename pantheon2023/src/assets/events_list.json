@@ -212,6 +212,27 @@
                     "contact": "7259735397"
                 }
             ]
+        },
+        {
+            "id": 10,
+            "event_name": "Celestial Rendition - Group Dance",
+            "category": "Dance",
+            "common_name": "Group Dance",
+            "description": "From Mount Olympus to the court of Indra, there have been divinities who have transfixed the gods with their performance. Be it Western or Eastern dance, come showcase your grace, synchronization, and artistry! The event invites groups to participate and mesmerize the audience with their coordinated dance performance. Participants are to submit their respective audio tracks in a pen drive 1 hour prior to the commencement of the event.",
+            "time_limit": "6+1 minutes",
+            "participants_per_team": "6-14",
+            "registration_fee": "Rs.1200",
+            "prize_amount": {
+                "1st Prize": "Rs.14,000",
+                "2nd Prize": "Rs.7,000"
+            },
+            "venue": "Main Stage",
+            "day": "2",
+            "time": "11:00-1:30",
+            "coordinator": {
+                "name": "Rakshith",
+                "contact": "9663513045"
+            }
         }
     ]
 }
