@@ -1,4 +1,6 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Contact() {
     return (
@@ -104,7 +106,7 @@ function Contact() {
                                         </defs>
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-medium text-white">Contact information</h3>
+                                <h3 className="text-lg font-medium text-red-600">Contact information</h3>
                                 <p className="max-w-3xl mt-6 text-base text-indigo-50">
                                     Contact us for any queries regarding the event or the website. We will get back to you as soon as possible.
                                 </p>
@@ -112,26 +114,28 @@ function Contact() {
                                     <dt>
                                         <span className="sr-only">Phone number</span>
                                     </dt>
-                                    <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">Teacher Coordinator (Mr. Sridhar S): +91 97316 69372 </span>{" "}
+                                    <dd className="flex-col text-base text-indigo-50">
+                                        <a href="tel:9731669372">Teacher Coordinator (Mr. Sridhar S):<div>+91 97316 69372 </div></a>{" "}
                                         {/* TODO FORMAT and add this as links*/}
                                     </dd>
-                                    <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">Student Coordinator (Disha Shankar): +91 98868 36062 </span>{" "}
+                                    <dd className="flex-col text-base text-indigo-50">
+                                        <a href="tel:9886836062">Student Coordinator (Disha Shankar):<div>+91 98868 36062 </div></a>{" "}
                                         {/* TODO FORMAT and  add this as links*/}
                                     </dd>
-                                    <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">Student Coordinator (Adithya R Pai): +91 79758 16332 </span>{" "}
+                                    <dd className="flex-col text-base text-indigo-50">
+                                        <a href="tel:7975816332">Student Coordinator (Adithya R Pai):<div> +91 79758 16332 </div></a>{" "}
                                         {/* TODO FORMAT and add this as links*/}
                                     </dd>
                                     <dt>
                                         <span className="sr-only">Email</span>
                                     </dt>
-                                    <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">catrnsitofficial@gmail.com</span> {/* TODO add this as links*/}
+                                    <dd className="flex items-center text-base text-indigo-50">
+                                    <AiOutlineMail className="mt-1"/>
+                                        <a href="mailto:catrnsitofficial@gmail.com" className="ml-1">catrnsitofficial@gmail.com</a> {/* TODO add this as links*/}
                                     </dd>
-                                    <dd className="flex text-base text-indigo-50">
-                                        <span className="ml-3">Instagram: Cat_rnsit</span> {/* TODO add this as links*/}
+                                    <dd className="flex items-center text-base text-indigo-50">
+                                    <FaInstagram className="mt-1"/>
+                                        <a href="https://www.instagram.com/cat_rnsit/" target="_blank" className="ml-1">Cat_rnsit</a> {/* TODO add this as links*/}
                                     </dd>
                                 </dl>
                                 {/* <ul role="list" className="flex mt-8 space-x-12">

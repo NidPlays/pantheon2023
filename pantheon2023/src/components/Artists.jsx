@@ -63,9 +63,11 @@ function Artists() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center py-8 lg:flex-row lg:justify-between">
+                    {/* Mobile ig */}
                     <div className="relative flex justify-center w-1/2 pb-8 mb-5 lg:hidden lg:mb-0">
                         <img className src={shivu} alt />
                     </div>
+                    {/* Mobile ig */}
                     <div className="flex items-center md:mt-4 lg:mt-0 lg:w-1/2">
                         <div className="lg:pt-5 lg:pt-0">
                             <div className="py-4 text-2xl font-normal text-center text-gray-200 lg:text-left f-f-d-s lg:text-3xl xl:text-5xl">
