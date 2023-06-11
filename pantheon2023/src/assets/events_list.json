@@ -2,14 +2,11 @@
     "events": [
         {
             "id": 1,
-            "event_name": "Orpheus’ Song",
+            "event_name": "Orpheus' Song - Western Vocal Solo",
             "category": "Music",
             "common_name": "Western Vocal Solo",
-            "description": "The myth of Orpheus speaks of a man so talented he moved nature with his music. In the 'Orpheus’ Song' event, participants will have the opportunity to showcase their exceptional singing skills and aim to surpass the legendary Orpheus in talent. The event welcomes participants to charm the crowd with their captivating vocal performances.",
+            "description": "The myth of Orpheus speaks of a man so talented he moved nature with his music. In the 'Orpheus’ Song' event, participants will have the opportunity to showcase their exceptional singing skills and aim to surpass the legendary Orpheus in talent. The event welcomes participants to charm the crowd with their captivating vocal performances. Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "time_limit": "4+1 minutes",
-            "allowed_accompaniment": "Karaoke / 1 acoustic accompanist",
-            "karaoke_submission": true,
-            "submission_instructions": "Participants must bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "participants_per_team": 1,
             "registration_fee": "Rs.150",
             "prize_amount": {
@@ -26,15 +23,11 @@
         },
         {
             "id": 2,
-            "event_name": "Saraswathi",
+            "event_name": "Saraswathi - Classical Vocal Solo",
             "category": "Music",
             "common_name": "Classical Vocal Solo",
-            "description": "Goddess Saraswathi is the goddess of music in accordance with Indian Mythology. Enthral the goddess and the crowd with mesmerizing Classical renditions.",
+            "description": "Goddess Saraswathi is the goddess of music in accordance with Indian Mythology. Enthral the goddess and the crowd with mesmerizing Classical renditions. Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts. Styles Allowed: Carnatic / Hindustani",
             "time_limit": "5+1 minutes",
-            "allowed_styles": ["Carnatic", "Hindustani"],
-            "allowed_accompaniment": "Karaoke / 1 acoustic accompanist",
-            "karaoke_submission": true,
-            "submission_instructions": "Participants must bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "participants_per_team": 1,
             "registration_fee": "Rs.150",
             "prize_amount": {
@@ -54,9 +47,8 @@
             "event_name": "Gandharva Recital - Semi-Classical Solo",
             "category": "Music",
             "common_name": "Semi-Classical Solo",
-            "description": "The ancient celestial beings, Gandharvas, were known for their soothing and mesmerizing voices. Throw the audience into a trance with your alluring singing.",
+            "description": "The ancient celestial beings, Gandharvas, were known for their soothing and mesmerizing voices. Throw the audience into a trance with your alluring singing. 1 accompanist allowed (Acoustic)",
             "time_limit": "4+1 minutes",
-            "allowed_accompaniment": "1 accompanist allowed (Acoustic)",
             "participants_per_team": 1,
             "registration_fee": "Rs. 150",
             "prize_amount": {
@@ -76,11 +68,8 @@
             "event_name": "Cinematic Serenades - Indian Cinema Solo",
             "category": "Music",
             "common_name": "Indian Cinema Solo",
-            "description": "Transport the audience into the world of trance by combining the enchantment of cinema with the evocative power of music! Perform your silver screen melody and captivate the crowd!",
+            "description": "Transport the audience into the world of trance by combining the enchantment of cinema with the evocative power of music! Perform your silver screen melody and captivate the crowd! Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "time_limit": "4+1 minutes",
-            "allowed_accompaniment": "Karaoke / 1 acoustic accompanist",
-            "karaoke_submission": true,
-            "submission_instructions": "Participants must bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "participants_per_team": 1,
             "registration_fee": "Rs.150",
             "prize_amount": {
@@ -93,6 +82,47 @@
             "coordinator": {
                 "name": "Sanjana",
                 "contact": "8277277238"
+            }
+        },
+        {
+            "id": 5,
+            "event_name": "Apollo's Lyre - Instrumental Solo",
+            "category": "Music",
+            "common_name": "Instrumental Solo",
+            "description": "The Greek god of music is recognized by his golden lyre, the first ever made. Bring forth your best instrument (percussion or non-percussion) and dazzle the audience. No background track allowed. 1 accompanist permitted",
+            "time_limit": "4+1 minutes",
+            "participants_per_team": 1,
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "EC Hi-Tech Lab",
+            "day": "2",
+            "time": "12:00-1:30",
+            "coordinator": {
+                "name": "Vishnu",
+                "contact": "9686367763"
+            }
+        },
+        {
+            "id": 6,
+            "event_name": "Battle of Titans - Rap Battle",
+            "category": "Music",
+            "common_name": "Rap Battle",
+            "description": "The Titans and Olympians fought a lasting war of prowess. It is your turn to fight your battle of music and wit by putting your rap skillset to the test. No vulgar words are allowed during the perforamnce. In the first round, participants will perform individually with a time limit of 1-2 minutes. The second round will be a one-on-one face-off between two participants.",
+            "registration_fee": "Rs.150",
+            "participants_per_team": 1,
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Gallery",
+            "day": "1",
+            "time": "1:30-2:30",
+            "coordinator": {
+                "name": "Mohak",
+                "contact": "9945578687"
             }
         }
     ]
