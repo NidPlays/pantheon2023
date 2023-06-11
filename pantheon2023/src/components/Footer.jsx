@@ -40,26 +40,27 @@ function Footer() {
                     </li>
                     <li className="menu__item">
                         <a className="menu__link" href="#">
-                            About
+                            Events
                         </a>
                     </li>
                     <li className="menu__item">
                         <a className="menu__link" href="#">
-                            Services
+                            About us
                         </a>
                     </li>
                     <li className="menu__item">
                         <a className="menu__link" href="#">
-                            Team
+                            Gallery
                         </a>
                     </li>
                     <li className="menu__item">
-                        <a className="menu__link" href="#">
+                        <a className="menu__link" href="#contact">
                             Contact
                         </a>
                     </li>
                 </ul>
-                <p>&copy;2021 Shodhan Shetty | All Rights Reserved</p>
+                <p>Dr. Vishnuvardhana Road Post, RNS Farms Rd, Channasandra, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098</p>
+                <p>&copy;2023 CAT TEAM | All Rights Reserved</p>
             </footer>
         </div>
     );

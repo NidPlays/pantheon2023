@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
     return (
         <div>
-            <div className="bg-black">
+            <div id="contact" className="bg-black">
                 <div className="py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
                     <div className="relative bg-white shadow-xl">
                         <h2 className="sr-only">Contact us</h2>
