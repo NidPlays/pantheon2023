@@ -1,0 +1,99 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "event_name": "Orpheus’ Song",
+            "category": "Music",
+            "common_name": "Western Vocal Solo",
+            "description": "The myth of Orpheus speaks of a man so talented he moved nature with his music. In the 'Orpheus’ Song' event, participants will have the opportunity to showcase their exceptional singing skills and aim to surpass the legendary Orpheus in talent. The event welcomes participants to charm the crowd with their captivating vocal performances.",
+            "time_limit": "4+1 minutes",
+            "allowed_accompaniment": "Karaoke / 1 acoustic accompanist",
+            "karaoke_submission": true,
+            "submission_instructions": "Participants must bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
+            "participants_per_team": 1,
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Main Stage",
+            "day": "2",
+            "time": "9:00-11:00",
+            "coordinator": {
+                "name": "Anagha",
+                "contact": "9480739221"
+            }
+        },
+        {
+            "id": 2,
+            "event_name": "Saraswathi",
+            "category": "Music",
+            "common_name": "Classical Vocal Solo",
+            "description": "Goddess Saraswathi is the goddess of music in accordance with Indian Mythology. Enthral the goddess and the crowd with mesmerizing Classical renditions.",
+            "time_limit": "5+1 minutes",
+            "allowed_styles": ["Carnatic", "Hindustani"],
+            "allowed_accompaniment": "Karaoke / 1 acoustic accompanist",
+            "karaoke_submission": true,
+            "submission_instructions": "Participants must bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
+            "participants_per_team": 1,
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "MBA Seminar Hall",
+            "day": "1",
+            "time": "1:30-3:30",
+            "coordinator": {
+                "name": "Sudhanwa",
+                "contact": "9353517552"
+            }
+        },
+        {
+            "id": 3,
+            "event_name": "Gandharva Recital - Semi-Classical Solo",
+            "category": "Music",
+            "common_name": "Semi-Classical Solo",
+            "description": "The ancient celestial beings, Gandharvas, were known for their soothing and mesmerizing voices. Throw the audience into a trance with your alluring singing.",
+            "time_limit": "4+1 minutes",
+            "allowed_accompaniment": "1 accompanist allowed (Acoustic)",
+            "participants_per_team": 1,
+            "registration_fee": "Rs. 150",
+            "prize_amount": {
+                "1st": "Rs. 1000",
+                "2nd": "Rs. 500"
+            },
+            "venue": "Admin Block Seminar Hall",
+            "day": "2",
+            "time": "12:00-2:00",
+            "coordinator": {
+                "name": "Anirudh",
+                "contact": "9886090308"
+            }
+        },
+        {
+            "id": 4,
+            "event_name": "Cinematic Serenades - Indian Cinema Solo",
+            "category": "Music",
+            "common_name": "Indian Cinema Solo",
+            "description": "Transport the audience into the world of trance by combining the enchantment of cinema with the evocative power of music! Perform your silver screen melody and captivate the crowd!",
+            "time_limit": "4+1 minutes",
+            "allowed_accompaniment": "Karaoke / 1 acoustic accompanist",
+            "karaoke_submission": true,
+            "submission_instructions": "Participants must bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
+            "participants_per_team": 1,
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Main Stage",
+            "day": "1",
+            "time": "1:30-3:00",
+            "coordinator": {
+                "name": "Sanjana",
+                "contact": "8277277238"
+            }
+        }
+    ]
+}
