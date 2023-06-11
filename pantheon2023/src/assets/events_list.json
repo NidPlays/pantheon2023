@@ -16,10 +16,12 @@
             "venue": "Main Stage",
             "day": "2",
             "time": "9:00-11:00",
-            "coordinator": {
-                "name": "Anagha",
-                "contact": "9480739221"
-            }
+            "coordinator": [
+                {
+                    "name": "Anagha",
+                    "contact": "9480739221"
+                }
+            ]
         },
         {
             "id": 2,
@@ -37,10 +39,12 @@
             "venue": "MBA Seminar Hall",
             "day": "1",
             "time": "1:30-3:30",
-            "coordinator": {
-                "name": "Sudhanwa",
-                "contact": "9353517552"
-            }
+            "coordinator": [
+                {
+                    "name": "Sudhanwa",
+                    "contact": "9353517552"
+                }
+            ]
         },
         {
             "id": 3,
@@ -58,10 +62,12 @@
             "venue": "Admin Block Seminar Hall",
             "day": "2",
             "time": "12:00-2:00",
-            "coordinator": {
-                "name": "Anirudh",
-                "contact": "9886090308"
-            }
+            "coordinator": [
+                {
+                    "name": "Anirudh",
+                    "contact": "9886090308"
+                }
+            ]
         },
         {
             "id": 4,
@@ -79,10 +85,12 @@
             "venue": "Main Stage",
             "day": "1",
             "time": "1:30-3:00",
-            "coordinator": {
-                "name": "Sanjana",
-                "contact": "8277277238"
-            }
+            "coordinator": [
+                {
+                    "name": "Sanjana",
+                    "contact": "8277277238"
+                }
+            ]
         },
         {
             "id": 5,
@@ -100,10 +108,12 @@
             "venue": "EC Hi-Tech Lab",
             "day": "2",
             "time": "12:00-1:30",
-            "coordinator": {
-                "name": "Vishnu",
-                "contact": "9686367763"
-            }
+            "coordinator": [
+                {
+                    "name": "Vishnu",
+                    "contact": "9686367763"
+                }
+            ]
         },
         {
             "id": 6,
@@ -120,10 +130,12 @@
             "venue": "Gallery",
             "day": "1",
             "time": "1:30-2:30",
-            "coordinator": {
-                "name": "Mohak",
-                "contact": "9945578687"
-            }
+            "coordinator": [
+                {
+                    "name": "Mohak",
+                    "contact": "9945578687"
+                }
+            ]
         },
         {
             "id": 7,
@@ -140,10 +152,12 @@
             "venue": "Gallery",
             "day": "1",
             "time": "2:30-3:00",
-            "coordinator": {
-                "name": "Yash",
-                "contact": "8088952282"
-            }
+            "coordinator": [
+                {
+                    "name": "Yash",
+                    "contact": "8088952282"
+                }
+            ]
         },
         {
             "id": 8,
@@ -161,10 +175,43 @@
             "venue": "Main Stage",
             "day": "1",
             "time": "12:00-1:30",
-            "coordinator": {
-                "name": "Kaarunya",
-                "contact": "9019550305"
-            }
+            "coordinator": [
+                {
+                    "name": "Kaarunya",
+                    "contact": "9019550305"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "event_name": "Hathor - Western Dance Solo",
+            "category": "Dance",
+            "common_name": "Western Dance Solo",
+            "description": "Pay homage to the very goddess of rhythm with awe-inspiring moves. Turn heads and induce hollers among the audience with your dynamic performance. The event invites participants to showcase their skills in Western dance forms and leave a lasting impression on the viewers. Participants are to submit their respective audio tracks in a pen drive 1 hour prior to the commencement of the event.",
+            "time_limit": "3+1 minutes",
+            "participants_per_team": 1,
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.3000",
+                "2nd": "Rs.1500"
+            },
+            "venue": "Mechanical Block Quadrangle",
+            "day": "1",
+            "time": "12:00-2:00",
+            "coordinator": [
+                {
+                    "name": "Pooja",
+                    "contact": "9380560981"
+                },
+                {
+                    "name": "Bhoomika",
+                    "contact": "9945234898"
+                },
+                {
+                    "name": "Shreyas",
+                    "contact": "7259735397"
+                }
+            ]
         }
     ]
 }
