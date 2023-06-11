@@ -5,7 +5,7 @@
             "event_name": "Orpheus' Song - Western Vocal Solo",
             "category": "Music",
             "common_name": "Western Vocal Solo",
-            "description": "The myth of Orpheus speaks of a man so talented he moved nature with his music. In the 'Orpheus’ Song' event, participants will have the opportunity to showcase their exceptional singing skills and aim to surpass the legendary Orpheus in talent. The event welcomes participants to charm the crowd with their captivating vocal performances. Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
+            "description": "The myth of Orpheus speaks of a man so talented he moved nature with his music. In the 'Orpheus' Song' event, participants will have the opportunity to showcase their exceptional singing skills and aim to surpass the legendary Orpheus in talent. The event welcomes participants to charm the crowd with their captivating vocal performances. Karaoke / 1 accompanist (acoustic) allowed. Participants have to bring the Karaoke music in a pen drive and submit it to the organizer before the event starts.",
             "time_limit": "4+1 minutes",
             "participants_per_team": 1,
             "registration_fee": "Rs.150",
@@ -110,7 +110,7 @@
             "event_name": "Battle of Titans - Rap Battle",
             "category": "Music",
             "common_name": "Rap Battle",
-            "description": "The Titans and Olympians fought a lasting war of prowess. It is your turn to fight your battle of music and wit by putting your rap skillset to the test. No vulgar words are allowed during the perforamnce. In the first round, participants will perform individually with a time limit of 1-2 minutes. The second round will be a one-on-one face-off between two participants.",
+            "description": "The Titans and Olympians fought a lasting war of prowess. It is your turn to fight your battle of music and wit by putting your rap skillset to the test. No vulgar words are allowed during the perforamnce.The event consists of 2 rounds. In the first round, participants will perform individually with a time limit of 1-2 minutes. The second round will be a one-on-one face-off between two participants.",
             "registration_fee": "Rs.150",
             "participants_per_team": 1,
             "prize_amount": {
@@ -123,6 +123,26 @@
             "coordinator": {
                 "name": "Mohak",
                 "contact": "9945578687"
+            }
+        },
+        {
+            "id": 7,
+            "event_name": "Divine Percussion - Beatboxing",
+            "category": "Music",
+            "common_name": "Beatboxing",
+            "description": "Captivate the crowd with your extraordinary beatboxing skills and bring the instrumental beats to life using your own vocal chords.The event consists of 2 rounds. In the first round, participants will perform individually with a time limit of 1-2 minutes. The second round will be a one-on-one face-off between two participants.",
+            "registration_fee": "Rs.150",
+            "participants_per_team": 1,
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Gallery",
+            "day": "1",
+            "time": "2:30-3:00",
+            "coordinator": {
+                "name": "Yash",
+                "contact": "8088952282"
             }
         }
     ]
