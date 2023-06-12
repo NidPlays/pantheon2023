@@ -4,6 +4,7 @@ import { MdAppRegistration } from "react-icons/md"
 import { BiCategoryAlt } from "react-icons/bi"
 import { FaPlaceOfWorship } from "react-icons/fa"
 import { BsTrophy } from "react-icons/bs"
+import { Link } from "react-router-dom";
 function Cards() {
   return (
     <>
@@ -29,7 +30,7 @@ function Cards() {
               <span className="tag m-1 inline-flex"><MdAppRegistration size={18} className="mr-1" />Registration {event.registration_fee}</span>
               <span className="tag m-1 inline-flex"><FaPlaceOfWorship size={18} className="mr-2" />{event.venue}</span>
               <div className="grid-container">
-              <button className="button-86 grid-item" role="button">View More</button>
+              <Link to={`/events/${event.id}`} className="button-86 grid-item" role="button">View More</Link>
               <button className="button-86 grid-item" role="button">Register</button>
               </div>
             </article>
