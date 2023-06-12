@@ -156,7 +156,7 @@ function AboutUsPage() {
                             </div>
                         </div> */}
           </div>
-        <Sponsors />                 
+        <Sponsors />
         <Footer />
       </div>
     </>
