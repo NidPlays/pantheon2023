@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import EventsPage from '../src/pages/EventsPage.jsx'
 import AboutUsPage from '../src/pages/AboutUsPage.jsx'
 import GalleryPage from '../src/pages/GalleryPage.jsx'
+import Error from '../src/components/Error.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/aboutus" element={<AboutUsPage />} />
-                <Route path="*" element={<App />} />
+                <Route path="*" element={<Error />} />
                 {/* Make 404 page */}
             </Routes>
         </BrowserRouter>
