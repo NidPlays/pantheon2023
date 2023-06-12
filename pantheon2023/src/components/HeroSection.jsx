@@ -34,6 +34,8 @@ const HeroSection = () => {
           <Timer />
         </div>
       </div>
+      {/* If required Use Later */}
+      {/* <div className="transition-shadow"/> */}
     </div>
   );
 };

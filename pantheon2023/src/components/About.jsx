@@ -1,7 +1,9 @@
 
 function About() {
     return (
-        <div className='flex items-center w-full h-screen custom-css-about'>
+        <div className='flex items-center w-full h-screen custom-css-about '>
+            {/* Use this for Shadow */}
+            <div className="custom-shadow" />
             <div className="w-2/3 text-justify mx-auto">
                 <h1 className="text-white text-center dark:text-white font-bold text-4xl md:text-6xl xl:text-7xl logo-text-abt">Pantheon<span className="text-primary text-red-600"> 2023</span></h1>
                 <h4 className="mt-8 text-white dark:text-gray-300">

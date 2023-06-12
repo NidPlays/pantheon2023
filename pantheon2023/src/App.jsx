@@ -10,7 +10,7 @@ import ScrollToTopButton from "./components/ScrollToTop"
 export default function App() {
   return (
     <>
-    <div className="bg-black overflow-x-hidden">
+    <div className="bg-[#151515] overflow-x-hidden">
     <Navbar />
     <HeroSection />
     <About />
