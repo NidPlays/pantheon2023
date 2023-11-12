@@ -5,24 +5,24 @@ export default function Timer() {
     const [hours, setHours] = React.useState(0);
     const [minutes, setMinutes] = React.useState(0);
     const [seconds, setSeconds] = React.useState(0);
-  
-    const deadline = "June, 23, 2023";
-  
+
+    const deadline = "December, 15, 2023";
+
     const getTime = () => {
-      const time = Date.parse(deadline) - Date.now();    
-  
+      const time = Date.parse(deadline) - Date.now();
+
       setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
       setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
       setMinutes(Math.floor((time / 1000 / 60) % 60));
       setSeconds(Math.floor((time / 1000) % 60));
     };
-  
+
     React.useEffect(() => {
       const interval = setInterval(() => getTime(deadline), 1000);
-  
+
       return () => clearInterval(interval);
     }, []);
-  
+
     return (
       <div data-aos="fade-up" className="timer overflow-hidden flex justify-center items-center" role="timer">
         <div className="col-4 px-5 bg-transparent py-2">
@@ -51,6 +51,5 @@ export default function Timer() {
         </div>
       </div>
     );
-  
-}
 
+}
