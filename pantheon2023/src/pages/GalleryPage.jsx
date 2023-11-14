@@ -7,9 +7,9 @@ import Gallery from "../components/Gallery";
 function GalleryPage() {
     return (
         <>
-            <div className="overflow-x-hidden bg-black">
+            <div className="overflow-x-hidden bg-[#151515]">
                 <Navbar />
-                <div className="w-screen min-h-screen text-2xl text-white bg-black pb-6"><Gallery /></div>
+                <div className="w-screen min-h-screen text-2xl text-white bg-[#151515] pb-6"><Gallery /></div>
                 <Sponsors />
                 <Footer />
             </div>

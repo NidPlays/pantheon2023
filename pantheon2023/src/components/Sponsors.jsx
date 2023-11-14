@@ -3,8 +3,8 @@ import rns_logo from "../assets/RNS_logo.png"
 import cat_logo from "../assets/CAT-LOGO-WHITE.png"
 function Sponsors() {
   return (
-    <div className="pb-20">
-      <div className="bg-[#151515]">
+    <div className="pb-10">
+      <div className="">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-around gap-8 py-12 px-4">
           <p className="w-full mb-4 -mt-4 text-center text-4xl font-semibold uppercase text-white tracking-wider ">
             Our Sponsors

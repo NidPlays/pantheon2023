@@ -25,7 +25,7 @@ function Artists() {
                                         width={362}
                                         height={497}
                                         transform="matrix(-0.996996 -0.077453 -0.077453 0.996996 399.607 28.1496)"
-                                        stroke="#E97451"
+                                        stroke="#f6e27a"
                                         strokeWidth={3}
                                     />
                                 </svg>
@@ -41,7 +41,7 @@ function Artists() {
                     <div className="flex items-center lg:w-1/2">
                         <div className="hidden lg:block lg:pr-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width={151} height={4} viewBox="0 0 151 4" fill="none">
-                                <line x1="0.75" y1="1.63696" x2="150.75" y2="1.63696" stroke="#E97451" strokeWidth={3} />
+                                <line x1="0.75" y1="1.63696" x2="150.75" y2="1.63696" stroke="#f6e27a" strokeWidth={3} />
                             </svg>
                         </div>
                         <div className="lg:pt-0 lg:pt-5">
@@ -55,7 +55,7 @@ function Artists() {
                             </div>
                             <div className="flex justify-center w-full lg:block">
                                 <a target="_blank" href="https://www.instagram.com/brodhav/?hl=en" rel="noreferrer">
-                                    <button className="pt-8 text-base font-bold text-white border-b-2 border-red-500 lg:text-2xl focus:outline-none f-f-l">
+                                    <button className="pt-8 text-base font-bold text-white border-b-2 border-[#f6e27a] lg:text-2xl focus:outline-none f-f-l">
                                         View Artist
                                     </button>
                                 </a>
@@ -80,7 +80,7 @@ function Artists() {
                             </div>
                             <div className="flex justify-center w-full lg:block">
                                 <a href="https://shivamanvi.com" target="_blank" rel="noreferrer">
-                                    <button className="pt-8 text-base font-bold text-white border-b-2 border-red-500 lg:text-2xl focus:outline-none f-f-l">
+                                    <button className="pt-8 text-base font-bold text-white border-b-2 border-[#f6e27a] lg:text-2xl focus:outline-none f-f-l">
                                         View Artist
                                     </button>
                                 </a>
@@ -88,7 +88,7 @@ function Artists() {
                         </div>
                         <div className="hidden pl-6 lg:block">
                             <svg xmlns="http://www.w3.org/2000/svg" width={151} height={4} viewBox="0 0 151 4" fill="none">
-                                <line x1="0.75" y1="1.63696" x2="150.75" y2="1.63696" stroke="#E97451" strokeWidth={3} />
+                                <line x1="0.75" y1="1.63696" x2="150.75" y2="1.63696" stroke="#f6e27a" strokeWidth={3} />
                             </svg>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ function Artists() {
                                         width={362}
                                         height={497}
                                         transform="matrix(-0.996996 -0.077453 -0.077453 0.996996 399.607 28.1496)"
-                                        stroke="#E97451"
+                                        stroke="#f6e27a"
                                         strokeWidth={3}
                                     />
                                 </svg>
@@ -139,7 +139,7 @@ function Artists() {
                                                     width={362}
                                                     height={497}
                                                     transform="matrix(-0.996996 -0.077453 -0.077453 0.996996 399.607 28.1496)"
-                                                    stroke="#E97451"
+                                                    stroke="#f6e27a"
                                                     strokeWidth={3}
                                                 />
                                             </svg>
@@ -155,7 +155,7 @@ function Artists() {
                                 <div className="flex items-center lg:w-1/2">
                                     <div className="hidden lg:block lg:pr-6">
                                         <svg xmlns="http://www.w3.org/2000/svg" width={151} height={4} viewBox="0 0 151 4" fill="none">
-                                            <line x1="0.75" y1="1.63696" x2="150.75" y2="1.63696" stroke="#E97451" strokeWidth={3} />
+                                            <line x1="0.75" y1="1.63696" x2="150.75" y2="1.63696" stroke="#f6e27a" strokeWidth={3} />
                                         </svg>
                                     </div>
                                     <div className="lg:pt-0 lg:pt-5">
@@ -167,7 +167,7 @@ function Artists() {
                                         </div>
                                         <div className="flex justify-center w-full lg:block">
                                             <a target="_blank" href="https://www.instagram.com/djprithvi_/" rel="noreferrer">
-                                                <button className="pt-8 text-base font-bold text-white border-b-2 border-red-500 lg:text-2xl focus:outline-none f-f-l">
+                                                <button className="pt-8 text-base font-bold text-white border-b-2 border-[#f6e27a] lg:text-2xl focus:outline-none f-f-l">
                                                     View Artist
                                                 </button>
                                             </a>

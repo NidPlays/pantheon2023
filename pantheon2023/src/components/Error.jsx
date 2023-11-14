@@ -1,23 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import NavBar from './Navbar'
 
 function Error() {
     return (
-        <div className='h-screen w-screen'>
-            <img className="absolute w-full h-full top-0 z-0" src="https://i.ibb.co/JmcV6n1/Fictional-colourful-night-sky-with-stars-and-nebula.jpg" />
-            <div className="flex justify-center items-center py-32 lg:py-0">
-                <div className=" px-4 flex justify-center items-center relative z-10 text-gray-800">
-                    <div className="sm:w-5/6 bg-white border rounded-md grid place-items-center my-8 py-16 px-4 md:px-24 lg:px-72">
-                        <img src="https://i.ibb.co/Lrq5cgP/404-1.png" alt={404} />
-                        <h1 className="text-center font-bold text-gray-800 text-xl lg:text-2xl pt-12  lg:pt-8 ">PAGE NOT FOUND</h1>
-                        <p className="py-6 md:py-8 text-gray-800 text-center ">
-                            The page you are looking for might have been removed,
-                            has its name changed, or is temporarily unavailable.
-                        </p>
-                        <Link to="/" className="bg-blue-700 hover:bg-blue-800 text-white border rounded-md py-4 px-8 w-full lg:w-auto focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-50">Go to Homepage</Link>
-                    </div>
+        <div className='overflow-x-hidden bg-[#151515]'>
+            <NavBar />
+            <div className='w-screen min-h-screen text-2xl text-white bg-[#151515] pb-6'>
+            <div className="text-center py-48 px-4 lg:py-20 pb-32 md:py-32 flex flex-col items-center justify-center">
+                <div className="grid place-content-center">
+                    <img src="https://i.ibb.co/ncJJqTq/undraw-page-not-found-su7k-2-1-1-1.png" alt="404 animation" />
+                </div>
+                <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold text-gray-200 py-4 md:py-8">Looks like you're lost</h1>
+                <p className="text-base text-gray-300 py-2 ">
+                    Sorry! We could not find you the page you are looking for. Please check URL in <br className="md:block hidden" />
+                    address bar and try again.
+                </p>
+                <div className="my-4 md:my-8 w-full">
+                    <Link to="/">
+                    <button className="text-center text-base font-medium text-white p-4 md:w-auto w-full bg-indigo-700 border rounded-md hover:bg-indigo-800">Get back to Homepage</button>
+                    </Link>
                 </div>
             </div>
+        </div>
+
         </div>
     )
 }

@@ -16,7 +16,7 @@ function EventDetails({ id }) {
 
     return (
         <>
-            <div className='overflow-x-hidden bg-black text-white p-10'>
+            <div className='overflow-x-hidden bg-[#151515] text-white p-10'>
                 <article className='col-span-9 mt-12 justify-center flex'>
                     <div className=''>
                         <div>
@@ -72,7 +72,7 @@ function EventDetails({ id }) {
                                 About Event.
                             </h4>
 
-                            <p className='md:px-5 text-justify mt-6 md:mt-8'><span className="font-medium text-gray-100">Category</span>{" "} <span className="text-[red] font-bold">{event.category}</span></p>
+                            <p className='md:px-5 text-justify mt-6 md:mt-8'><span className="font-medium text-gray-100">Category</span>{" "} <span className="gold-text font-bold">{event.category}</span></p>
                             <p className='md:px-5 text-justify mt-6 md:mt-8'>{event.description}</p>
                         </div>
 

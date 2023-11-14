@@ -1,19 +1,20 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Footer2 from "../components/Footer2";
 import Sponsors from "../components/Sponsors";
 
 function AboutUsPage() {
   return (
     <>
-      <div className="overflow-x-hidden bg-black">
+      <div className="overflow-x-hidden bg-[#151515]">
         <Navbar />
 
         <div className="flex-wrap px-4 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9">
           <div className="flex min-[280px]:flex-col place-items-center justify-between gap-8 lg:flex-row">
             <div className="flex flex-col justify-center w-full lg:w-5/12">
-              <h1 className="pb-4 text-3xl font-bold leading-9 text-red-600 lg:text-4xl">
-                About RNSIT
+              <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
+                About <span className="gold-text">RNSIT</span>
               </h1>
               <p className="text-base font-normal leading-6 text-white ">
                 RNS Institute of Technology (RNSIT) was founded by the honorable
@@ -46,8 +47,8 @@ function AboutUsPage() {
               />
             </div>
             <div className="flex flex-col max-[1024px]:-order-1 justify-center w-full lg:w-5/12">
-              <h1 className="pb-4 text-3xl font-bold leading-9 text-red-600 lg:text-4xl">
-                About Pantheon
+              <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
+                About <span className="gold-text">Pantheon</span>
               </h1>
               <p className="text-base font-normal leading-6 text-white ">
                 Pantheon is a bi-annual inter-college fest organised by RNS
@@ -68,8 +69,8 @@ function AboutUsPage() {
 
           <div className="flex min-[280px]:flex-col place-items-center justify-between gap-8 pt-20 lg:flex-row">
             <div className="flex flex-col justify-center w-full lg:w-5/12">
-              <h1 className="pb-4 text-3xl font-bold leading-9 text-red-600 lg:text-4xl">
-                About Parichay
+              <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
+                About <span className="gold-text">Parichay</span>
               </h1>
               <p className="text-base font-normal leading-6 text-white ">
                 Parichay is an intra-college festival held at RNS Institute of
@@ -103,8 +104,8 @@ function AboutUsPage() {
               />
             </div>
             <div className="flex flex-col max-[1024px]:-order-3 justify-center w-full lg:w-5/12">
-              <h1 className="pb-4 text-3xl font-bold leading-9 text-red-600 lg:text-4xl">
-                About CAT
+              <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
+                About <span className="gold-text">CAT</span>
               </h1>
               <p className="text-base font-normal leading-6 text-white ">
                 Cultural activities make a campus very vibrant and RNSIT gets
@@ -123,8 +124,8 @@ function AboutUsPage() {
         </div>
         <div className="text-center place-items-center justify-between gap-8 pt-12 pb-20">
             <div className="justify-center w-full">
-              <h1 className="pb-4 text-3xl font-bold leading-9 text-red-600 lg:text-4xl">
-                Website Design By
+              <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
+                <span className="gold-text">Website by</span>
               </h1>
               <p className="text-base font-normal leading-6 text-white ">
                 Nidish G, Phanish S N, Subramanya Rao,
@@ -157,7 +158,7 @@ function AboutUsPage() {
                         </div> */}
           </div>
         <Sponsors />
-        <Footer />
+        <Footer2 />
       </div>
     </>
   );

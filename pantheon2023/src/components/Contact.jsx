@@ -106,7 +106,7 @@ function Contact() {
                                         </defs>
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-medium text-red-600">Contact information</h3>
+                                <h3 className="text-2xl font-medium text-[#f6e27a]">Contact information</h3>
                                 <p className="max-w-3xl mt-6 text-base text-indigo-50">
                                     Contact us for any queries regarding the event or the website. We will get back to you as soon as possible.
                                 </p>
@@ -222,6 +222,7 @@ function Contact() {
                                                 type="text"
                                                 name="first-name"
                                                 id="first-name"
+                                                required={true}
                                                 autoComplete="given-name"
                                                 className="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                                             />
@@ -237,6 +238,7 @@ function Contact() {
                                                 name="last-name"
                                                 id="last-name"
                                                 autoComplete="family-name"
+                                                required={true}
                                                 className="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                                             />
                                         </div>
@@ -250,6 +252,7 @@ function Contact() {
                                                 id="email"
                                                 name="email"
                                                 type="email"
+                                                required={true}
                                                 autoComplete="email"
                                                 className="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                                             />
@@ -283,6 +286,7 @@ function Contact() {
                                             <input
                                                 type="text"
                                                 name="subject"
+                                                required={true}
                                                 id="subject"
                                                 className="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                                             />
@@ -311,7 +315,8 @@ function Contact() {
                                     <div className="sm:col-span-2 sm:flex sm:justify-end">
                                         <button
                                             type="submit"
-                                            className="inline-flex items-center justify-center w-full px-6 py-3 mt-2 text-base font-medium text-white bg-red-500 border border-transparent rounded-md shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:w-auto"
+                                            className="inline-flex items-center justify-center w-full px-6 py-3 mt-2 text-base font-medium text-[#333333] bg-[#fbdc60] border border-transparent rounded-md shadow-sm hover:bg-[#edc531]
+                                            focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:w-auto"
                                         >
                                             Submit
                                         </button>
@@ -327,3 +332,8 @@ function Contact() {
 }
 
 export default Contact;
+
+
+
+
+

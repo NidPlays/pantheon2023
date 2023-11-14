@@ -7,7 +7,8 @@ export default {
     theme: {
         extend: {
             animation: {
-                "background-shine": "background-shine 2s linear infinite"
+                "background-shine": "background-shine 2s linear infinite",
+                'pulse-slow': 'pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)',
             },
             keyframes: {
                 "background-shine": {

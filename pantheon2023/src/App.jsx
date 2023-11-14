@@ -7,6 +7,7 @@ import Carousel from "./components/Carousel"
 import Artists from "./components/Artists"
 import Sponsors from "./components/Sponsors"
 import ScrollToTopButton from "./components/ScrollToTop"
+import Footer2 from "./components/Footer2"
 export default function App() {
   return (
     <>
@@ -18,8 +19,9 @@ export default function App() {
     <Artists />
     <Contact />
     <Sponsors />
-    <Footer />
-    <ScrollToTopButton />
+    <Footer2 />
+    {/* <Test /> */}
+    {/* <ScrollToTopButton /> */}
     </div>
     </>
   )

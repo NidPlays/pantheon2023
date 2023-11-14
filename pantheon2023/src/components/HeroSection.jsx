@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Video from "../assets/updated.mp4";
 import Image from "../assets/Pantheon.png"
+import NewLogo from "../assets/new-logo.png"
 import Timer from "./Timer"
 
 const HeroSection = () => {
@@ -30,7 +31,7 @@ const HeroSection = () => {
           className="bg-transparent text-white text-5xl font-semibold text-center font-Montserrat custom-css-hero-h1"
           data-aos="fade-in"
         >
-          <img src={Image} alt="" className="h-72 w-72 relative z-50 inline-flex lg:h-96 lg:w-96 xl:h-96 xl:w-96" />
+          <img src={NewLogo} alt="" className="h-72 w-72 relative z-50 inline-flex lg:h-96 lg:w-96 xl:h-96 xl:w-96" />
           <Timer />
         </div>
       </div>
