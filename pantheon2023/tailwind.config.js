@@ -9,6 +9,7 @@ export default {
             animation: {
                 "background-shine": "background-shine 2s linear infinite",
                 'pulse-slow': 'pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)',
+                "marquee": "marquee 40s linear infinite"
             },
             keyframes: {
                 "background-shine": {
@@ -18,6 +19,10 @@ export default {
                     to: {
                         backgroundPosition: "-200% 0"
                     }
+                },
+                "marquee": {
+                    from: { transform: "translateX(0%)" },
+                    to: { transform: "translateX(-100%)" }
                 }
             }
         }

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import NavBar from './Navbar'
 import Events from ".././assets/events_list.json";
 import brodhav from "../assets/brodhav.jpeg";
+import { SEO } from './SEO';
 
 function EventDetails({ id }) {
     const [event, setEvent] = React.useState({});
@@ -9,13 +10,12 @@ function EventDetails({ id }) {
     useEffect(() => {
         const event = Events.events.find((event) => event.id === eventID);
         setEvent(event);
-        console.log(event);
-
         window.scrollTo(0, 0);
     }, []);
 
     return (
         <>
+            <SEO title={`${event.event_name} | Pantheon 2023`} description={`${event.description}`} />
             <div className='overflow-x-hidden bg-[#151515] text-white p-10'>
                 <article className='col-span-9 mt-12 justify-center flex'>
                     <div className=''>
