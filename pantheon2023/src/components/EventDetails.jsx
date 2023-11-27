@@ -15,7 +15,7 @@ function EventDetails({ id }) {
 
     return (
         <>
-            <SEO title={`${event.event_name} | Pantheon 2023`} description={`${event.description}`} />
+            <SEO title={`${event.event_name} | Pantheon 2023`} description={`${event.description}`} canonicalUrl={`${event.event_name}`}/>
             <div className='overflow-x-hidden bg-[#151515] text-white p-10'>
                 <article className='col-span-9 mt-12 justify-center flex'>
                     <div className=''>

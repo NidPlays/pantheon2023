@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
-import Sponsors from "../components/Sponsors";
 import Logos from "../components/Logos";
 import { SEO } from "../components/SEO";
 
@@ -10,7 +9,7 @@ function AboutUsPage() {
   return (
     <>
       <div className="overflow-x-hidden bg-[#151515]">
-        <SEO title="About Us | Pantheon 2023" description="Discover the vibrant spirit of RNS Institute of Technology (RNSIT) through our About Us page. Founded in 2001 by Dr. R.N. Shetty, RNSIT stands as a beacon of quality education and technological innovation. Dive into the heart of Pantheon, our bi-annual inter-college fest, and explore the enthralling cultural experiences that define our institution. From the captivating mystique of Mystic Memoirs events to the intra-college festival, Parichay, our page narrates the rich tapestry of talent and diversity. Join us in celebrating cultural expressions, art forms, and the dynamic life at RNSIT through various clubs like Synapse, Natarang, Dhwani, Aura, and Chiranuthana. Immerse yourself in the vibrant cultural extravaganza that shapes the campus life of RNSITians." keywords="RNSIT, RNS Institute of Technology, Pantheon, Mystic Memoirs events, Parichay festival, Cultural activities, Synapse, Natarang, Dhwani, Aura, Chiranuthana, Diversity, Artistic traditions, Student activities, Bi-annual fest, Campus life, Talent showcase, Cultural expressions, About RNSIT, About Pantheon, About Parichay, Cultural clubs, RNSITians, Campus vibrancy, Technological innovation, Quality education" />
+        <SEO title="About Us | Pantheon 2023" description="Discover the vibrant spirit of RNS Institute of Technology (RNSIT) through our About Us page. Founded in 2001 by Dr. R.N. Shetty, RNSIT stands as a beacon of quality education and technological innovation. Dive into the heart of Pantheon, our bi-annual inter-college fest, and explore the enthralling cultural experiences that define our institution. From the captivating mystique of Mystic Memoirs events to the intra-college festival, Parichay, our page narrates the rich tapestry of talent and diversity. Join us in celebrating cultural expressions, art forms, and the dynamic life at RNSIT through various clubs like Synapse, Natarang, Dhwani, Aura, and Chiranuthana. Immerse yourself in the vibrant cultural extravaganza that shapes the campus life of RNSITians." keywords="RNSIT, RNS Institute of Technology, Pantheon, Mystic Memoirs events, Parichay festival, Cultural activities, Synapse, Natarang, Dhwani, Aura, Chiranuthana, Diversity, Artistic traditions, Student activities, Bi-annual fest, Campus life, Talent showcase, Cultural expressions, About RNSIT, About Pantheon, About Parichay, Cultural clubs, RNSITians, Campus vibrancy, Technological innovation, Quality education" canonicalUrl="/aboutus"/>
         <Navbar />
 
         <div className="flex-wrap px-4 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9">
