@@ -10,7 +10,7 @@ function EventDetails({ id }) {
     useEffect(() => {
         const event = Events.events.find((event) => event.id === eventID);
         setEvent(event);
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0)
     }, []);
 
     return (

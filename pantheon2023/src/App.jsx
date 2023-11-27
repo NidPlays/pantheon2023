@@ -9,7 +9,15 @@ import ScrollToTopButton from "./components/ScrollToTop"
 import Footer2 from "./components/Footer2"
 import Logos from "./components/Logos"
 import { SEO } from "./components/SEO"
+import { useEffect } from "react"
 export default function App() {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    }, [])
     return (
         <>
             <div className="bg-[#151515] overflow-x-hidden">

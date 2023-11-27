@@ -4,8 +4,16 @@ import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
 import Logos from "../components/Logos";
 import { SEO } from "../components/SEO";
+import { useEffect } from "react";
 
 function AboutUsPage() {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    }, [])
   return (
     <>
       <div className="overflow-x-hidden bg-[#151515]">

@@ -4,6 +4,7 @@ import Cards from "../components/Cards"
 import Footer2 from "../components/Footer2";
 import Logos from "../components/Logos";
 import { SEO } from "../components/SEO";
+import { useEffect } from "react";
 function EventsPage() {
     return (
         <>

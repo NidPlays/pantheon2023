@@ -9,7 +9,9 @@ export default {
             animation: {
                 "background-shine": "background-shine 2s linear infinite",
                 'pulse-slow': 'pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)',
-                "marquee": "marquee 40s linear infinite"
+                "marquee": "marquee 40s linear infinite",
+                'slidehorizontal': 'slide-horizontal 12s linear infinite backwards',
+
             },
             keyframes: {
                 "background-shine": {
@@ -23,7 +25,12 @@ export default {
                 "marquee": {
                     from: { transform: "translateX(0%)" },
                     to: { transform: "translateX(-100%)" }
-                }
+                },
+                'slide-horizontal': {
+                    '0%': { transform: 'translateX(0%)' },
+                    '100%': { transform: 'translateX(-100%)' },
+
+                },
             }
         }
     },
