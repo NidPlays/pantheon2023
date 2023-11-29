@@ -2,13 +2,15 @@ import React from "react";
 import { Helmet } from 'react-helmet-async';
 
 export const SEO = ({ title, description, keywords, meta = [], canonicalUrl }) => {
+  // limiting description to 170 characters ( SEO best practice )
+  const limitedDescription = description.length > 170 ? `${description.slice(0, 167)}...` : description;
   const staticMeta = [
     { name: "author", content: "Pantheon" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
   ];
 
   const dynamicMeta = [
-    { name: `description`, content: description },
+    { name: `description`, content: limitedDescription },
     { name: "keywords", content: keywords },
     ...meta,
   ];
