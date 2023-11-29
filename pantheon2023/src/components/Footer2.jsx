@@ -29,6 +29,7 @@ export default function Footer2({backgroundColor}) {
     return (
         <>
             <footer className={`z-0 ${backgroundColor ? backgroundColor : 'bg-[#151515]'}`}>
+                <div className='bg-gradient-to-t from-yellow-600/[.15] via-transparent'>
                 <div className="mx-auto max-w-7xl overflow-hidden px-6 py-8 sm:py-20 lg:px-8">
                     <nav className="relative flex justify-center items-center flex-wrap mx-0 space-x-6 my-2.5" aria-label="Footer">
                         {navigation.main.map((item) => (
@@ -50,6 +51,7 @@ export default function Footer2({backgroundColor}) {
                     <p className="mt-10 text-center text-sm leading-5 text-gray-400">
                         &copy; Pantheon 2023, Inc. All rights reserved.
                     </p>
+                </div>
                 </div>
             </footer>
 
