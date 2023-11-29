@@ -5,11 +5,26 @@ import { BiCategoryAlt } from "react-icons/bi"
 import { FaPlaceOfWorship } from "react-icons/fa"
 import { BsTrophy } from "react-icons/bs"
 import { Link } from "react-router-dom";
-function Cards() {
+function Cards({searchTerm}) {
+    const filteredEvents = Events.events.filter((event) => {
+        if (searchTerm === "") {
+          return true;
+        } else {
+          const lowerCaseSearchTerm = searchTerm.toLowerCase();
+          return (
+            event.event_name.toLowerCase().includes(lowerCaseSearchTerm) ||
+            event.common_name.toLowerCase().includes(lowerCaseSearchTerm)
+          );
+        }
+      });
   return (
     <>
       <div className="cards">
-        {Events.events.map((event) => {
+      {filteredEvents.length === 0 ? (
+          <div className="text-white">No events found :)</div>
+        ) : (
+        filteredEvents.
+        map((event) => {
           return (
             <article className="information [ card ]" key={event.id}>
               <img
@@ -34,8 +49,9 @@ function Cards() {
               <button className="button-86 grid-item" role="button">Register</button>
               </div>
             </article>
-          );
-        })}
+          )
+        })
+        )}
       </div>
     </>
   );

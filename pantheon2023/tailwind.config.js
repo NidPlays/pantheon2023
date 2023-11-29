@@ -11,7 +11,7 @@ export default {
                 'pulse-slow': 'pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)',
                 "marquee": "marquee 40s linear infinite",
                 'slidehorizontal': 'slide-horizontal 12s linear infinite backwards',
-
+                "border-width": "border-width 3s infinite alternate",
             },
             keyframes: {
                 "background-shine": {
@@ -30,6 +30,16 @@ export default {
                     '0%': { transform: 'translateX(0%)' },
                     '100%': { transform: 'translateX(-100%)' },
 
+                },
+                "border-width": {
+                    "from": {
+                        "width": "10px",
+                        "opacity": "0"
+                    },
+                    "to": {
+                        "width": "100px",
+                        "opacity": "1"
+                    }
                 },
             }
         }
