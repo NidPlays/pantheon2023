@@ -1,26 +1,26 @@
 import React from 'react'
-import Img1 from '../assets/carousel/1.JPG'
-import Img2 from '../assets/carousel/2.JPG'
-import Img3 from '../assets/carousel/3.JPG'
-import Img4 from '../assets/carousel/4.JPG'
-import Img5 from '../assets/carousel/5.JPG'
-import Img6 from '../assets/carousel/6.JPG'
-import Img7 from '../assets/carousel/7.JPG'
-import Img8 from '../assets/carousel/8.JPG'
-import Img9 from '../assets/carousel/9.JPG'
-import Img10 from '../assets/carousel/10.JPG'
+import Img1 from '../assets/carousel/1.webp'
+import Img2 from '../assets/carousel/2.webp'
+import Img3 from '../assets/carousel/3.webp'
+import Img4 from '../assets/carousel/4.webp'
+import Img5 from '../assets/carousel/5.webp'
+import Img6 from '../assets/carousel/6.webp'
+import Img7 from '../assets/carousel/7.webp'
+import Img8 from '../assets/carousel/8.webp'
+import Img9 from '../assets/carousel/9.webp'
+import Img10 from '../assets/carousel/10.webp'
 
 const galleryData = [
-    { id: 1, src: Img1 },
-    { id: 2, src: Img2 },
-    { id: 3, src: Img3 },
-    { id: 4, src: Img4 },
-    { id: 5, src: Img5 },
-    { id: 6, src: Img6 },
-    { id: 7, src: Img7 },
-    { id: 8, src: Img8 },
-    { id: 9, src: Img9 },
-    { id: 10, src: Img10 },
+    { id: 1, src: Img1, hash:"LADRs-*z0JQ5-pvxM_K,0JP9-YiL" },
+    { id: 2, src: Img2, hash:"L7Duc1Io00%30}s.[Ej?00t7_NIU" },
+    { id: 3, src: Img3, hash:"LQIX58}@?GInR4IoM}xZtJtjNsog" },
+    { id: 4, src: Img4, hash:"LfHxjCtm%Nof.Txvs:jZp0oMM{Rj" },
+    { id: 5, src: Img5, hash:"LDDlZn~V-=xH9YtOt3-oO[pJx]xv" },
+    { id: 6, src: Img6, hash:"LBA^,,.T00MbgPadMwSi00Mw.ApJ" },
+    { id: 7, src: Img7, hash:"L3BCSq~V044U};t7-n=tRzE0=_?H" },
+    { id: 8, src: Img8, hash:"L3A+:9Dg0NI{00OZxvwG0;R6}q?Z" },
+    { id: 9, src: Img9, hash:"LPG6#-A6B@S^JHS?Oa=f:,NEWoIp" },
+    { id: 10, src: Img10, hash: "LuMNuy|GVxN2E{%0n6w{OqOBxYWV" },
   ];
 
 

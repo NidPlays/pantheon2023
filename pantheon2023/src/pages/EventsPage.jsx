@@ -7,6 +7,11 @@ import { SEO } from "../components/SEO";
 import InputPulseBorder from "../components/InputPulseBorder";
 function EventsPage() {
     const [searchTerm, setSearchTerm] = useState("");
+    const [selectedDay, setSelectedDay] = useState("all");
+
+    const handleDayChange = (day) => {
+        setSelectedDay(day);
+    };
     return (
         <>
             <div className="overflow-x-hidden bg-black">
@@ -18,7 +23,34 @@ function EventsPage() {
                     <div className="w-screen flex my-[10vh] items-center justify-center">
                         <InputPulseBorder value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder="Search for an event" />
                     </div>
-                    <Cards searchTerm={searchTerm} />
+
+                    {/* Tabs for filtering events based on the day */}
+                    <div className="flex justify-center space-x-4">
+                        <button
+                            className={`py-2 px-4 inline-flex items-center gap-x-2 text-base font-semibold  rounded-full border-[#1F2937] border-2 text-yellow-600`}
+                            style={selectedDay === "all" ? { backgroundColor: "#ffa720", color: "#1F2937" } : {}}
+                            onClick={() => handleDayChange("all")}
+                        >
+                            All Events
+                        </button>
+                        <button
+                            className={`py-2 px-4 inline-flex items-center gap-x-2 text-base font-semibold  rounded-full border-[#1F2937] border-2 text-yellow-600`}
+                            style={selectedDay === "1" ? { backgroundColor: "#ffa720", color: "#1F2937" } : {}}
+                            onClick={() => handleDayChange("1")}
+                        >
+                            Day 1
+                        </button>
+                        <button
+                            className={`py-2 px-4 inline-flex items-center gap-x-2 text-base font-semibold  rounded-full border-[#1F2937] border-2 text-yellow-600`}
+                            onClick={() => handleDayChange("2")}
+                            style={selectedDay === "2" ? { backgroundColor: "#ffa720", color: "#1F2937" } : {}}
+                        >
+                            Day 2
+                        </button>
+                    </div>
+
+                    {/* Exp ends */}
+                    <Cards searchTerm={searchTerm} selectedDay={selectedDay} />
                 </div>
                 <Logos backgroundColor="bg-black" />
                 {/* New footer removed old one */}

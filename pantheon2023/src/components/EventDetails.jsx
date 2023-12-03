@@ -3,8 +3,10 @@ import NavBar from './Navbar'
 import Events from ".././assets/events_list.json";
 import brodhav from "../assets/brodhav.jpeg";
 import { SEO } from './SEO';
+import { Link, useNavigate} from "react-router-dom";
 
 function EventDetails({ id }) {
+    let navigate = useNavigate();
     const [event, setEvent] = React.useState({});
     const eventID = parseInt(id);
     useEffect(() => {
@@ -15,8 +17,16 @@ function EventDetails({ id }) {
 
     return (
         <>
-            <SEO title={`${event.event_name} | Pantheon 2023`} description={`${event.description}`} canonicalUrl={`${event.event_name}`}/>
+            <SEO title={`${event.event_name} | Pantheon 2023`} description={`${event.description}`} canonicalUrl={`${event.event_name}`} />
             <div className='overflow-x-hidden bg-[#151515] text-white p-10'>
+               <div className='px-5 md:px-10'>
+               <button type="button" onClick={() => navigate(-1)} class="w-full flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto  hover:bg-gray-100">
+                    <svg class="w-5 h-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                    </svg>
+                    <span>Go back</span>
+                </button>
+               </div>
                 <article className='col-span-9 mt-12 justify-center flex'>
                     <div className=''>
                         <div>
@@ -106,6 +116,14 @@ function EventDetails({ id }) {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="text-center mt-4">
+                   <Link to={event?.registration_link} target='_blank'>
+                   <button className='inline-flex h-12 animate-background-shine items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50'>
+                       Register Now
+                    </button>
+                   </Link>
                 </div>
             </div >
         </>

@@ -10,7 +10,7 @@ export const SEO = ({ title, description, keywords, meta = [], canonicalUrl }) =
   ];
 
   const dynamicMeta = [
-    { name: `description`, content: limitedDescription },
+    { name: "description", content: limitedDescription },
     { name: "keywords", content: keywords },
     ...meta,
   ];
@@ -19,8 +19,8 @@ export const SEO = ({ title, description, keywords, meta = [], canonicalUrl }) =
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://pantheon2023.nidish.xyz/" }, //change after configuring domain
     { property: "og:title", content: title },
-    { property: "og:description", content: description },
-    { property: "og:image", content: "https://nextjsconf-pics.vercel.app/og-image.png" }, //testing https://i.postimg.cc/tRVs1r3x/OG.png
+    { property: "og:description", content: limitedDescription },
+    { property: "og:image", content: "https://i.postimg.cc/tRVs1r3x/OG.png" }, //testing
   ];
 
   const allMeta = [...staticMeta, ...dynamicMeta , ...ogMeta];

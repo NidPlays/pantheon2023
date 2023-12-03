@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import EventDetails from "../components/EventDetails";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";

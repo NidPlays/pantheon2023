@@ -2,16 +2,16 @@ import { CiCircleChevLeft, CiCircleChevRight } from "react-icons/ci";
 import { AnimatePresence, motion, MotionConfig } from "framer-motion";
 import { useState } from "react";
 import useKeypress from "react-use-keypress";
-import Img1 from '../assets/carousel/1.JPG'
-import Img2 from '../assets/carousel/2.JPG'
-import Img3 from '../assets/carousel/3.JPG'
-import Img4 from '../assets/carousel/4.JPG'
-import Img5 from '../assets/carousel/5.JPG'
-import Img6 from '../assets/carousel/6.JPG'
-import Img7 from '../assets/carousel/7.JPG'
-import Img8 from '../assets/carousel/8.JPG'
-import Img9 from '../assets/carousel/9.JPG'
-import Img10 from '../assets/carousel/10.JPG'
+import Img1 from '../assets/carousel/1.webp'
+import Img2 from '../assets/carousel/2.webp'
+import Img3 from '../assets/carousel/3.webp'
+import Img4 from '../assets/carousel/4.webp'
+import Img5 from '../assets/carousel/5.webp'
+import Img6 from '../assets/carousel/6.webp'
+import Img7 from '../assets/carousel/7.webp'
+import Img8 from '../assets/carousel/8.webp'
+import Img9 from '../assets/carousel/9.webp'
+import Img10 from '../assets/carousel/10.webp'
 
 
 

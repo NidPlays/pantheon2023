@@ -136,7 +136,7 @@ function Artists() {
         </div>
       </div>
 
-      <div className="w-full   flex items-center md:justify-center justify-center md:gap-10 gap-5  lg:mt-0 mt-5 ">
+      <div className="w-full flex items-center md:justify-center justify-center md:gap-10 gap-5  lg:mt-0 mt-5 ">
         <button ref={navigationPrevRef} name="nextRef" aria-label="Next">
           <HiArrowLeft className="border-2 border-[#5c5710] text-[#f6e27a] rounded-full  p-3 md:h-16 md:w-16 h-12 w-12" />
         </button>

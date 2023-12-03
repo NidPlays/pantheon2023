@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
 import Logos from "../components/Logos";
 import { SEO } from "../components/SEO";
 import { useEffect } from "react";
+import { Dev } from "../components/Dev";
+import Team from "../components/Team";
 
 function AboutUsPage() {
     useEffect(() => {
@@ -132,40 +133,15 @@ function AboutUsPage() {
             </div>
           </div>
         </div>
-        <div className="text-center place-items-center justify-between gap-8 pt-12 pb-20">
+          <Team />
+
+        <div className="text-center place-items-center justify-between gap-8 pt-12 pb-12">
             <div className="justify-center w-full">
               <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
                 <span className="gold-text">Website by</span>
               </h1>
-              <p className="text-base font-normal leading-6 text-white ">
-                Nidish G, Phanish S N, Subramanya Rao,
-                Shodan Shetty, R Tushar.
-              </p>
+              <Dev />
             </div>
-            {/* <div className="w-full lg:w-8/12 lg:pt-8">
-                            <div className="grid grid-cols-1 rounded-md shadow-lg md:grid-cols-4 sm:grid-cols-2 lg:gap-4">
-                                <div className="flex flex-col items-center justify-center p-4 pb-6">
-                                    <img className="hidden md:block" src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png" alt="Alexa featured Img" />
-                                    <img className="block md:hidden" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Img" />
-                                    <p className="mt-4 text-xl font-medium leading-5 text-gray-800">Alexa</p>
-                                </div>
-                                <div className="flex flex-col items-center justify-center p-4 pb-6">
-                                    <img className="hidden md:block" src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" />
-                                    <img className="block md:hidden" src="https://i.ibb.co/NrWKJ1M/Rectangle-119.png" alt="Olivia featured Img" />
-                                    <p className="mt-4 text-xl font-medium leading-5 text-gray-800">Olivia</p>
-                                </div>
-                                <div className="flex flex-col items-center justify-center p-4 pb-6">
-                                    <img className="hidden md:block" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" />
-                                    <img className="block md:hidden" src="https://i.ibb.co/C5MMBcs/Rectangle-120.png" alt="Liam featued Img" />
-                                    <p className="mt-4 text-xl font-medium leading-5 text-gray-800">Liam</p>
-                                </div>
-                                <div className="flex flex-col items-center justify-center p-4 pb-6">
-                                    <img className="hidden md:block" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" />
-                                    <img className="block md:hidden" src="https://i.ibb.co/ThZBWxH/Rectangle-121.png" alt="Elijah featured img" />
-                                    <p className="mt-4 text-xl font-medium leading-5 text-gray-800">Elijah</p>
-                                </div>
-                            </div>
-                        </div> */}
           </div>
         <Logos />
         <Footer2 />
