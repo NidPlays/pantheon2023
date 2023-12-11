@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import nid from "../assets/devs/nid.webp"
-import pan from "../assets/devs/pan.webp"
-import shod from "../assets/devs/shod.webp"
-import tush from "../assets/devs/tush.webp"
-import sub from "../assets/heads/16.webp"
+import nid from "../assets/devs/nid.webp";
+import pan from "../assets/devs/pan.webp";
+import shod from "../assets/devs/shod.webp";
+import tush from "../assets/devs/tush.webp";
+import sub from "../assets/heads/16.webp";
+import apr from "../assets/devs/tush.webp";
+import aub from "../assets/devs/aub.png";
 
 import {
   motion,
@@ -63,6 +65,16 @@ export const Dev = () => {
       name: "Shodhan Shetty",
       image: shod,
     },
+    {
+      id: 6,
+      name: " Aprameya R",
+      image: apr,
+    },
+    {
+      id: 7,
+      name: " Adhvith U B",
+      image: aub,
+    },
   ];
 
   return (
@@ -74,39 +86,39 @@ export const Dev = () => {
           onMouseEnter={() => setHoveredIndex(testimonial.id)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-           <AnimatePresence mode="wait">
-              {hoveredIndex === testimonial.id && (
-                <motion.div
-                  initial={{ opacity: 0, y: 20, scale: 0.6 }}
-                  animate={{
-                    opacity: 1,
-                    y: 0,
-                    scale: 1,
-                    transition: {
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 10,
-                    },
-                  }}
-                  exit={{ opacity: 0, y: 20, scale: 0.6 }}
-                  style={{
-                    translateX: translateX,
-                    rotate: rotate,
-                    whiteSpace: "nowrap",
-                  }}
-                  className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
-                >
-                  <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
-                  <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                  <div className="font-bold text-white relative z-30 text-base">
-                    {testimonial.name}
-                  </div>
-                  {/* <div className="text-white text-xs">
+          <AnimatePresence mode="wait">
+            {hoveredIndex === testimonial.id && (
+              <motion.div
+                initial={{ opacity: 0, y: 20, scale: 0.6 }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                  scale: 1,
+                  transition: {
+                    type: "spring",
+                    stiffness: 260,
+                    damping: 10,
+                  },
+                }}
+                exit={{ opacity: 0, y: 20, scale: 0.6 }}
+                style={{
+                  translateX: translateX,
+                  rotate: rotate,
+                  whiteSpace: "nowrap",
+                }}
+                className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
+              >
+                <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
+                <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
+                <div className="font-bold text-white relative z-30 text-base">
+                  {testimonial.name}
+                </div>
+                {/* <div className="text-white text-xs">
                     {testimonial.designation}
                   </div> */}
-                </motion.div>
-              )}
-            </AnimatePresence>
+              </motion.div>
+            )}
+          </AnimatePresence>
           <img
             onMouseMove={handleMouseMove}
             height={100}
