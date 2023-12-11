@@ -8,17 +8,22 @@ import { Dev } from "../components/Dev";
 import Team from "../components/Team";
 
 function AboutUsPage() {
-    useEffect(() => {
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        })
-    }, [])
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <div className="overflow-x-hidden bg-[#151515]">
-        <SEO title="About Us | Pantheon 2023" description="Discover the vibrant spirit of RNS Institute of Technology (RNSIT) through our About Us page. Founded in 2001 by Dr. R.N. Shetty, RNSIT stands as a beacon of quality education and technological innovation. Dive into the heart of Pantheon, our bi-annual inter-college fest, and explore the enthralling cultural experiences that define our institution. From the captivating mystique of Mystic Memoirs events to the intra-college festival, Parichay, our page narrates the rich tapestry of talent and diversity. Join us in celebrating cultural expressions, art forms, and the dynamic life at RNSIT through various clubs like Synapse, Natarang, Dhwani, Aura, and Chiranuthana. Immerse yourself in the vibrant cultural extravaganza that shapes the campus life of RNSITians." keywords="RNSIT, RNS Institute of Technology, Pantheon, Mystic Memoirs events, Parichay festival, Cultural activities, Synapse, Natarang, Dhwani, Aura, Chiranuthana, Diversity, Artistic traditions, Student activities, Bi-annual fest, Campus life, Talent showcase, Cultural expressions, About RNSIT, About Pantheon, About Parichay, Cultural clubs, RNSITians, Campus vibrancy, Technological innovation, Quality education" canonicalUrl="/aboutus"/>
+        <SEO
+          title="About Us | Pantheon 2023"
+          description="Discover the vibrant spirit of RNS Institute of Technology (RNSIT) through our About Us page. Founded in 2001 by Dr. R.N. Shetty, RNSIT stands as a beacon of quality education and technological innovation. Dive into the heart of Pantheon, our bi-annual inter-college fest, and explore the enthralling cultural experiences that define our institution. From the captivating mystique of Mystic Memoirs events to the intra-college festival, Parichay, our page narrates the rich tapestry of talent and diversity. Join us in celebrating cultural expressions, art forms, and the dynamic life at RNSIT through various clubs like Synapse, Natarang, Dhwani, Aura, and Chiranuthana. Immerse yourself in the vibrant cultural extravaganza that shapes the campus life of RNSITians."
+          keywords="RNSIT, RNS Institute of Technology, Pantheon, Mystic Memoirs events, Parichay festival, Cultural activities, Synapse, Natarang, Dhwani, Aura, Chiranuthana, Diversity, Artistic traditions, Student activities, Bi-annual fest, Campus life, Talent showcase, Cultural expressions, About RNSIT, About Pantheon, About Parichay, Cultural clubs, RNSITians, Campus vibrancy, Technological innovation, Quality education"
+          canonicalUrl="/aboutus"
+        />
         <Navbar />
 
         <div className="flex-wrap px-4 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9">
@@ -43,8 +48,8 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12">
               <img
                 className="w-full"
-                src="https://i.ibb.co/FhgPJt8/Rectangle-116.png"
-                alt="A group of People"
+                src="src/assets/abtus/campus.jpg"
+                alt="RNSIT logo"
               />
             </div>
           </div>
@@ -53,8 +58,8 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12">
               <img
                 className="w-full"
-                src="https://i.ibb.co/FhgPJt8/Rectangle-116.png"
-                alt="A group of People"
+                src="src/assets/Pantheon.png"
+                alt="Pantheon logo"
               />
             </div>
             <div className="flex flex-col max-[1024px]:-order-1 justify-center w-full lg:w-5/12">
@@ -101,8 +106,8 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12 ">
               <img
                 className="w-full"
-                src="https://i.ibb.co/FhgPJt8/Rectangle-116.png"
-                alt="A group of People"
+                src="src/assets/abtus/parichayy.webp"
+                alt="Parichay Logo"
               />
             </div>
           </div>
@@ -110,8 +115,8 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12 ">
               <img
                 className="w-full"
-                src="https://i.ibb.co/FhgPJt8/Rectangle-116.png"
-                alt="A group of People"
+                src="src/assets/CAT-LOGO-WHITE.png"
+                alt="CAT Logo"
               />
             </div>
             <div className="flex flex-col max-[1024px]:-order-3 justify-center w-full lg:w-5/12">
@@ -133,16 +138,16 @@ function AboutUsPage() {
             </div>
           </div>
         </div>
-          <Team />
+        <Team />
 
         <div className="text-center place-items-center justify-between gap-8 pt-12 pb-12">
-            <div className="justify-center w-full">
-              <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
-                <span className="gold-text">Website by</span>
-              </h1>
-              <Dev />
-            </div>
+          <div className="justify-center w-full">
+            <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
+              <span className="gold-text">Website by</span>
+            </h1>
+            <Dev />
           </div>
+        </div>
         <Logos />
         <Footer2 />
       </div>
