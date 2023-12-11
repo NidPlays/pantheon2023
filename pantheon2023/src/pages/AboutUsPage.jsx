@@ -6,6 +6,10 @@ import { SEO } from "../components/SEO";
 import { useEffect } from "react";
 import { Dev } from "../components/Dev";
 import Team from "../components/Team";
+import campus from "../assets/abtus/campus.jpg";
+import pantheon from "../assets/Pantheon.png";
+import parichay from "../assets/abtus/parichayy.webp";
+import cat from "../assets/CAT-LOGO-WHITE.png";
 
 function AboutUsPage() {
   useEffect(() => {
@@ -48,7 +52,7 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12">
               <img
                 className="w-full"
-                src="src/assets/abtus/campus.jpg"
+                src={campus}
                 alt="RNSIT logo"
               />
             </div>
@@ -58,7 +62,7 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12">
               <img
                 className="w-full"
-                src="src/assets/Pantheon.png"
+                src={pantheon}
                 alt="Pantheon logo"
               />
             </div>
@@ -106,7 +110,7 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12 ">
               <img
                 className="w-full"
-                src="src/assets/abtus/parichayy.webp"
+                src={parichay}
                 alt="Parichay Logo"
               />
             </div>
@@ -115,7 +119,7 @@ function AboutUsPage() {
             <div className="w-full lg:w-8/12 ">
               <img
                 className="w-full"
-                src="src/assets/CAT-LOGO-WHITE.png"
+                src={cat}
                 alt="CAT Logo"
               />
             </div>
