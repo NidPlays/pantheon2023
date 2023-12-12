@@ -81,21 +81,22 @@ function Cards({ searchTerm, selectedDay }) {
                       </button>
                     </Link>
                   </div>
-                  {
-                    // <style>
-                    //   {`
-                    // .information {
-                    //     transition: border 0.5s, box-shadow 0.5s, transform 0.3s;
-                    //     border-radius: 10px;
-                    //   box-shadow: 0 0 25px 1px #ffcc00;
-                    //                  }
-                    // // .information:hover {
-                    // //     // box-shadow: 0 0 20px 5px #0000ff;
-                    // //     transform: scale(1.05);
-                    // // }
-                    // `}
-                    // </style>
-                  }
+                  {/* {
+                    <style>
+                      {`
+                    .information {
+                        transition:box-shadow 0.5s;
+                        transition: transform 0.3s;
+                        border-radius: 10px;
+                      // box-shadow: 0 0 25px 1px #ffcc00;
+                                     }
+                    .information:hover {
+                        box-shadow: 0 0 25px 2px #ffcc00;
+                        transform: scale(1.05);
+                     }
+                    `}
+                    </style>
+                  } */}
                 </motion.div>
               );
             })
