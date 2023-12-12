@@ -6,10 +6,6 @@ import tush from "../assets/devs/tush.webp";
 import sub from "../assets/heads/16.webp";
 import apr from "../assets/devs/tush.webp";
 import aub from "../assets/devs/aub.png";
-<<<<<<< HEAD
-import bhu from "../assets/devs/aub.png";
-=======
->>>>>>> 41eeef4b8d2049a621fb90de7750e96d0e6674c8
 
 import {
   motion,
