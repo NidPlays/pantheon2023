@@ -1,0 +1,956 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "event_name": "Orpheus' Song - Western Vocal Solo",
+            "category": "Music",
+            "common_name": "Western Vocal Solo",
+            "description": "The myth of Orpheus speaks of a man so talented he moved nature with his music. Charm the crowd with your exceptional singing and overthrow Orpheus in skill.",
+            "time_limit": "4+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "CSE Seminar Hall",
+            "day": "2",
+            "time": "1:00 PM - 3:00 PM",
+            "coordinator": [
+                {
+                    "name": "Sumanth Anand",
+                    "contact": "9071179984"
+                },
+                {
+                    "name": "Manushree",
+                    "contact": "7975394599"
+                }
+            ],
+            "registration_link": "https://forms.gle/ZV7YwWz9Q7VB3zSb6"
+        },
+        {
+            "id": 2,
+            "event_name": "Saraswathi - Classical Vocal Solo",
+            "category": "Music",
+            "common_name": "Classical Vocal Solo",
+            "description": "Goddess Saraswathi is the goddess of music in accordance to Indian Mythology. Enthral the goddess and the crowd with mesmerizing Classical renditions",
+            "time_limit": "5+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Placement Seminar Hall",
+            "day": "1",
+            "time": "12:00 PM - 2:00 PM",
+            "coordinator": [
+                {
+                    "name": "Anirudh Ramesh",
+                    "contact": "9886090308"
+                },
+                {
+                    "name": "Nishvika",
+                    "contact": "9353293323"
+                }
+            ],
+            "registration_link": "https://forms.gle/VBLfZBKN6LFPc7Yi6"
+        },
+        {
+            "id": 3,
+            "event_name": "Gandharva Recital - Semi-Classical Solo",
+            "category": "Music",
+            "common_name": "Semi-Classical Solo",
+            "description": "The ancient celestial beings, Gandharvas, were known for their soothing and mesmerizing voices. Throw the audience into a trance with your alluring singing",
+            "time_limit": "4+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "CSE Edusat Hall",
+            "day": "2",
+            "time": "12:00 PM - 2:00 PM",
+            "coordinator": [
+                {
+                    "name": "Akshay",
+                    "contact": "9535730591"
+                },
+                {
+                    "name": "Lekhana",
+                    "contact": "6361209763"
+                }
+            ],
+            "registration_link": "https://forms.gle/5bC8cEeQTWcjFZBT6"
+        },
+        {
+            "id": 4,
+            "event_name": "Cinematic Serenades - Indian Cinema Solo",
+            "category": "Music",
+            "common_name": "Indian Cinema Solo",
+            "description": "Transport the audience into the world of trance by combining the enchantment of cinema with the evocative power of music! Perform your silver screen melody and captivate the crowd!    ",
+            "time_limit": "4+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "ECE Hi-Tech Lab",
+            "day": "2",
+            "time": "10:00 AM - 12:00 PM",
+            "coordinator": [
+                {
+                    "name": "Anagha Rao",
+                    "contact": "9480739221"
+                },
+                {
+                    "name": "Krutika",
+                    "contact": "7899957536"
+                }
+            ],
+            "registration_link": "https://forms.gle/MnuDm4TcC1wKxUzq8"
+        },
+        {
+            "id": 5,
+            "event_name": "Apollo's Lyre - Instrumental Solo",
+            "category": "Music",
+            "common_name": "Instrumental Solo",
+            "description": "The Greek god of music is recognized by his golden lyre, the first ever made. Bring forth your best instrument(percussion or non-percussion) forward and dazzle the audience.",
+            "time_limit": "4+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "CSE Seminar Hall",
+            "day": "2",
+            "time": "10:00 AM - 1:00 PM",
+            "coordinator": [
+                {
+                    "name": "Karthik Prabhu",
+                    "contact": "8129189993"
+                },
+                {
+                    "name": "Swasthika",
+                    "contact": "9353578199"
+                }
+            ],
+            "registration_link": "https://forms.gle/ZzvtkzQwayqco6h86"
+        },
+        {
+            "id": 6,
+            "event_name": "Battle of Titans - Rap Battle",
+            "category": "Music",
+            "common_name": "Rap Battle",
+            "description": "The Titans and Olympians fought a lasting war of prowess. It is your turn to fight your battle of music and wit by putting your rap skillset to the test.",
+            "registration_fee": "Rs.150",
+            "participants_per_team": "1",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Mech Quadrangle",
+            "day": "1",
+            "time": "12:00 PM - 2:00 PM",
+            "coordinator": [
+                {
+                    "name": "Yash",
+                    "contact": "8088952282"
+                },
+                {
+                    "name": "Suraj",
+                    "contact": "9632795637"
+                }
+            ],
+            "registration_link": "https://forms.gle/hsQi54hZUrdFPV9n8"
+        },
+        {
+            "id": 7,
+            "event_name": "Divine Percussion - Beatboxing",
+            "category": "Music",
+            "common_name": "Beatboxing",
+            "description": "Captivate the crowd with your extra-ordinary beat boxing skills and bring the instrumental beats to life using your own vocal chords.",
+            "registration_fee": "Rs.150",
+            "participants_per_team": "1",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Main Stage",
+            "day": "2",
+            "time": "10:00 AM - 12:00 PM",
+            "coordinator": [
+                {
+                    "name": "Sumukh Baradhwaj",
+                    "contact": "9535087397"
+                },
+                {
+                    "name": "Manas",
+                    "contact": "9513836627"
+                }
+            ],
+            "registration_link": "https://forms.gle/rJd31TatB7SjWHGb7"
+        },
+        {
+            "id": 8,
+            "event_name": "The Natyashastra - Classical Dance Solo",
+            "category": "Dance",
+            "common_name": "Classical Dance Solo",
+            "description": "Bharata Muni coded the Natyashastra as a guide for performers. Induce various ‘Rasa’ among the audience with your mesmerizing ‘Bhava’.",
+            "time_limit": "5+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.2000",
+                "2nd": "Rs.1000"
+            },
+            "venue": "Main Stage",
+            "day": "1",
+            "time": "11:00 AM - 12:30 PM",
+            "coordinator": [
+                {
+                    "name": "Dhrithi",
+                    "contact": "9535620305"
+                },
+                {
+                    "name": "Rakshitha",
+                    "contact": "9513588362"
+                }
+            ],
+            "registration_link": "https://forms.gle/L6CSknU1UboZSvJj6"
+        },
+        {
+            "id": 9,
+            "event_name": "Hathor - Western Dance Solo",
+            "category": "Dance",
+            "common_name": "Western Dance Solo",
+            "description": "Pay homage to the very goddess of rhythm with awe-inspiring moves. Turn heads and induce hollers among the audience with your dynamic performance.",
+            "time_limit": "3+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.300",
+            "prize_amount": {
+                "1st": "Rs.3000",
+                "2nd": "Rs.1500"
+            },
+            "venue": "Main Stage",
+            "day": "1",
+            "time": "12:30 PM - 2:30 PM",
+            "coordinator": [
+                {
+                    "name": "Rakshith",
+                    "contact": "9663513045"
+                },
+                {
+                    "name": "Gagan",
+                    "contact": "7892011964"
+                },
+                {
+                    "name": "Manish",
+                    "contact": "7348930760"
+                }
+            ],
+            "registration_link": "https://forms.gle/rJA6r4Tz5xzJAFCD6"
+        },
+        {
+            "id": 10,
+            "event_name": "Celestial Rendition - Group Dance",
+            "category": "Dance",
+            "common_name": "Group Dance",
+            "description": "From Mount Olympus to the court of Indra, there have been divinities who have transfixed the gods with their performance. Be it Western or Eastern dance, come show case your grace, synchronisation and artistry!",
+            "time_limit": "5+2 minutes",
+            "participants_per_team": "6-14",
+            "registration_fee": "Rs.1200",
+            "prize_amount": {
+                "1st": "Rs.12,000",
+                "2nd": "Rs.7,000"
+            },
+            "venue": "Main Stage",
+            "day": "1",
+            "time": "2:3 0PM - 4:00 PM",
+            "coordinator": [
+                {
+                    "name": "Saanvi",
+                    "contact": "9902579236"
+                },
+                {
+                    "name": "Anushree P",
+                    "contact": "8660904248"
+                },
+                {
+                    "name": "Suhith",
+                    "contact": "8310347663"
+                }
+            ],
+            "registration_link": "https://forms.gle/rbzNU4E5ufbZ3u2y6"
+        },
+        {
+            "id": 11,
+            "event_name": "Smoked'23 - Harmony's Ensemble",
+            "category": "Dance",
+            "common_name": "Harmony's Ensemble",
+            "description": "Freestyle Popping Showdown - Dancers, it's your time to shine! Step into the spotlight and showcase your extraordinary talent in our thrilling 1v1 and 2v2 freestyle popping competition. Get ready to captivate the crowd with your fluid waves, precise hits, and mind-blowing moves. This electrifying event is your chance to leave a lasting impression and be recognized among the best in the popping community. Register now and be part of an unforgettable showcase that celebrates the artistry and creativity of freestyle popping",
+            "participants_per_team": "1",
+            "time_limit": "NA",
+            "registration_fee": "Rs.300",
+            "prize_amount": {
+                "1st": "Rs.8000",
+                "2nd": "Rs.6000"
+            },
+            "venue": "Mech Quadrangle",
+            "day": "2",
+            "time": "11:00 AM - 3:30 PM",
+            "coordinator": [
+                {
+                    "name": "Pooja",
+                    "contact": "9380460981"
+                },
+                {
+                    "name": "Shreya Choontharu",
+                    "contact": "8217729646"
+                },
+                {
+                    "name": "Suhith",
+                    "contact":"8310347663"
+                }
+            ],
+            "registration_link": "https://forms.gle/6szQ1VSu9ycaDRJH9"
+        },
+        {
+            "id": 12,
+            "event_name": "Clash of Muses - The Battle of Bands",
+            "category": "Music",
+            "common_name": " The Battle of Bands",
+            "description": "The nine Greek muses protected the arts and entertained gods. Haul your instruments and prep your voices to perform the best composition yet!",
+            "time_limit": "12+3 minutes (Inclusive of set-up time)",
+            "participants_per_team": "7+2",
+            "registration_fee": "Rs.1200",
+            "prize_amount": {
+                "1st": "Rs.10000"
+            },
+            "venue": "Main Stage",
+            "day": "2",
+            "time": "1:00 PM - 3:00 PM",
+            "coordinator": [
+                {
+                    "name": "Sumanth Anand",
+                    "contact": "9071179984"
+                },
+                {
+                    "name": "Karthik Prabhu ",
+                    "contact": "8129189993"
+                }
+            ],
+            "registration_link": "https://forms.gle/5bfWQ7wA6tcUEt5G8"
+        },
+        {
+            "id": 13,
+            "event_name": "Fashion Odyssey - Fashion Show",
+            "category": "Fashion",
+            "common_name": "Fashion Show",
+            "description": "Aphrodite had once felt challenged by a mortal by the name Psyche due to her unmatched beauty. Walk the ramp with utmost allure and invoke Aphrodite’s envy yet again",
+            "time_limit": "8+2 minutes (Inclusive of preparation time)",
+            "participants_per_team": "12+2",
+            "registration_fee": "Rs.2500",
+            "prize_amount": {
+                "1st": "Rs.35000"
+            },
+            "venue": "Main Stage",
+            "day": "1",
+            "time": "4:00 PM - 6:00 PM",
+            "coordinator": [
+                {
+                    "name": "Surya",
+                    "contact": "8277395484"
+                },
+                {
+                    "name": "Ritu",
+                    "contact": "9108284043"
+                }
+            ],
+            "registration_link": "https://forms.gle/pNrq9ZK1bTYmz1Ss7"
+        },
+        {
+            "id": 14,
+            "event_name": "A Singular Saga - Mono Act",
+            "category": "Drama",
+            "common_name": "Mono Act",
+            "description": "The world’s past is passed on through the centuries via heroic tales and plays. Come enact your mythological tale by participating in the Mono Act",
+            "time_limit": "3+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "ECE Hi-Tech Hall",
+            "day": "1",
+            "time": "1:00 PM - 2:30 PM",
+            "coordinator": [
+                {
+                    "name": "Farhaan",
+                    "contact": "9606761043"
+                },
+                {
+                    "name": "Palak Srivastava",
+                    "contact": "6205904020"
+                }
+            ],
+            "registration_link": "https://forms.gle/gjH15B1kiWPKY7pC9"
+        },
+        {
+            "id": 15,
+            "event_name": "Tale of Icarus - Shark Tank",
+            "category": "Innovation",
+            "common_name": "Shark Tank",
+            "description": "Icarus and his father Daedalus were genius innovators who build wings made of wax and feathers. What genius ideas will you pitch in to amaze the crowd? Can you be successful with your endeavour unlike Icarus?",
+            "time_limit": "3+4 minutes",
+            "participants_per_team": "3",
+            "registration_fee": "Rs.300",
+            "prize_amount": {
+                "1st": "Rs.2000",
+                "2nd": "Rs.1000"
+            },
+            "venue": "Placement Seminar Hall",
+            "day": "2",
+            "time": "10:00 AM - 1:00 PM",
+            "coordinator": [
+                {
+                    "name": "Likith",
+                    "contact": "7022303974"
+                },
+                {
+                    "name": "Rakshitha",
+                    "contact": "9513588362"
+                }
+            ],
+            "registration_link": "https://forms.gle/fTzV9yLJGKHU63Uv5"
+        },
+        {
+            "id": 16,
+            "event_name": "Hayagreeva’s Verdict - Debate",
+            "category": "Debate",
+            "common_name": "Debate",
+            "description": "Hayagreeva is the most knowledgeable god in hindu mythology. Put your knowledge to test by show-casing your debate skills and impress the god of knowledge",
+            "time_limit": "4-5 minutes",
+            "participants_per_team": "3",
+            "registration_fee": "Rs.300",
+            "prize_amount": {
+                "1st": "Rs.2000",
+                "2nd": "Rs.1000"
+            },
+            "venue": "ECE Hi-Tech Lab",
+            "day": "1",
+            "time": "3:00 PM - 5:00 PM",
+            "coordinator": [
+                {
+                    "name": "Manish",
+                    "contact": "7348930760"
+                },
+                {
+                    "name": "Manushree",
+                    "contact": "7975294599"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-debate"
+        },
+        {
+            "id": 17,
+            "event_name": "An Epic Recital - Street Play",
+            "category": "Street Play",
+            "common_name": "Street Play",
+            "description": "The Indian Mythology comprises various Epics and Puranas which narrate stories of great virtue. Bring forth your own unique rendition of the famous Indian classics and bewitch the crowd.",
+            "time_limit": "12+3 minutes",
+            "participants_per_team": "10 + 2",
+            "registration_fee": "Rs.900",
+            "prize_amount": {
+                "1st": "Rs.5000",
+                "2nd": "Rs.3000"
+            },
+            "venue": "Basketball Court",
+            "day": "2",
+            "time": "11:00 AM - 2:00 PM",
+            "coordinator": [
+                {
+                    "name": "Adithya",
+                    "contact": "7795075816"
+                },
+                {
+                    "name": "Saumya Sanvi",
+                    "contact": "7717779580"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-street-play"
+        },
+        {
+            "id": 18,
+            "event_name": "Celestial Contrast - Instinct Art",
+            "category": "Instinct Art",
+            "common_name": "Instinct Art",
+            "description": "Doublets take on the challenge of expressing the two hemispheres of contrasting ideas to form a world like Remus & Romulus or Chanakya & Chandragupta.",
+            "time_limit": "12:00 PM - 1:30 PM",
+            "participants_per_team": "2",
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Mechanical Classroom",
+            "day": "1",
+            "coordinator": [
+                {
+                    "name": "Phanish",
+                    "contact": "9632513981"
+                },
+                {
+                    "name": "Gandhana",
+                    "contact": "7022689543"
+                },
+                {
+                    "name": "Prerana",
+                    "contact": "8904365649"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-instinct-art"
+        },
+        {
+            "id": 19,
+            "event_name": "Hanuman’s Hurdles - A Fitness Trial",
+            "category": "Fitness Trial",
+            "common_name": "Fitness Trial",
+            "description": "The legend speaks of the various deeds lord Hanuman has performed show casing his prowess. From jumping over the sea to flying across the sky, he has overcome great hurdles. Are you ready to step into his shoes?",
+            "time": "2:00 PM - 4:30 PM",
+            "participants_per_team": "2",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Basketball Court",
+            "day": "1",
+            "coordinator": [
+                {
+                    "name": "Bhuvan",
+                    "contact": "7483927393"
+                },
+                {
+                    "name": "Prajwal",
+                    "contact": "9535739657"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-fitness-trial"
+        },
+        {
+            "id": 20,
+            "event_name": "Kronos’ Time Trials - Mini Games",
+            "category": "Mini Games",
+            "common_name": "Mini Games",
+            "description": "A mythological take on the famous game, super minute. As the name suggests there is a set of games and a predetermined time limit, typically lasting for a minute, for each game.",
+            "time": "2:00 PM - 5:00 PM",
+            "participants_per_team": "4",
+            "registration_fee": "Rs.400",
+            "prize_amount": {
+                "1st": "Rs.2000",
+                "2nd": "Rs.1000"
+            },
+            "venue": "Mech Quadrangle",
+            "day": "1",
+            "coordinator": [
+                {
+                    "name": "Shreya",
+                    "contact": "9480674783"
+                },
+                {
+                    "name": "Anirudh",
+                    "contact": "9972214584"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-mini-games"
+        },
+        {
+            "id": 21,
+            "event_name": "Hapocrates’ Game - Dumb Charades",
+            "category": "Dumb Charades",
+            "common_name": "Dumb Charades",
+            "description": "Hapocrates was the god of silence and secrets. Get your A game on and play the game of silence, acting and guessing. Guess the extraordinary movies in the thrilling game of Dumb Charades, where you showcase your acting skills to convey phrases or names of movies, personalities, and TV shows through gestures and actions.",
+            "time": "10:00 AM - 12:00 PM",
+            "participants_per_team": "2",
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "CSE Edusat Hall",
+            "day": "2",
+            "coordinator": [
+                {
+                    "name": "Fatima",
+                    "contact": "9470806786"
+                },
+                {
+                    "name": "Bhuvan",
+                    "contact": "7483927393"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-dumb-charades"
+        },
+        {
+            "id": 22,
+            "event_name": "Hedjhotep’s Workshop - Newspaper Vogue",
+            "category": "Newspaper Vogue",
+            "common_name": "Newspaper Vogue",
+            "description": "Enter the deity's workshop with only newspaper as your material and impress the god with your one of a kind design.",
+            "time": "2:00 PM - 4:00 PM",
+            "participants_per_team": "2+1",
+            "registration_fee": "Rs.300",
+            "prize_amount": {
+                "1st": "Rs.2000",
+                "2nd": "Rs.1000"
+            },
+            "venue": "Mechanical Classroom",
+            "day": "1",
+            "coordinator": [
+                {
+                    "name": "Fatima",
+                    "contact": "9470806786"
+                },
+                {
+                    "name": "Lekhana",
+                    "contact": "6361209763"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-newspaper-vogue"
+        },
+        {
+            "id": 23,
+            "event_name": "The Lair of Ate - Beg Borrow Steal",
+            "category": "Beg Borrow Steal",
+            "common_name": "Beg Borrow Steal",
+            "description": "Take refuge in the teachings of Ate, the goddess of mischief and complete your tasks by hook or crook employing your wit and daring.",
+            "time": "10:00 AM - 12:00 PM",
+            "participants_per_team": "2",
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Mechanical Classroom",
+            "day": "2",
+            "coordinator": [
+                {
+                    "name": "Suhit",
+                    "contact": "8310347663"
+                },
+                {
+                    "name": "Farhaan",
+                    "contact": "9606761043"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-beg-borrow-steal"
+        },
+        {
+            "id": 24,
+            "event_name": "The Display of Manzai",
+            "category": "Stand-up Comedy",
+            "common_name": "Stand-up Comedy",
+            "description": "The Display of Manzai is a comedic performance to a live audience in which the performer addresses the audience directly from the stage. Set off the audience with your wit and humor",
+            "time_limit": "4+1 minutes",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.200",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Placement Seminar Hall",
+            "day": "2",
+            "time": "1:00 PM - 3:00 PM",
+            "coordinator": [
+                {
+                    "name": "Nishvika",
+                    "contact": "9353293323"
+                },
+                {
+                    "name": "Karthik GY",
+                    "contact": "9916599613"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-stand-up-comedy"
+        },
+        {
+            "id": 25,
+            "event_name": "Epic Conquest",
+            "category": "Valorant",
+            "common_name": "Valorant",
+            "description": "Valorant is a team-based first-person tactical hero shooter set in the near future. Participants can pick any character from a set of agents. These characters have different nationalities and cultures. Get your team and win your battles!",
+            "participants_per_team": 5,
+            "registration_fee": "Rs.500",
+            "prize_amount": {
+                "1st": "Rs.5000",
+                "2nd": "Rs.3000"
+            },
+            "venue": "Online & College Campus",
+            "day": "1",
+            "coordinator": [
+                {
+                    "name": "Sujal",
+                    "contact": "7975282961"
+                },
+                {
+                    "name": "Harsha Joshi",
+                    "contact": "8971213187"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-valorant"
+        },
+        {
+            "id": 26,
+            "event_name": "Warriors’ Clash",
+            "category": "BGMI",
+            "common_name": "BGMI",
+            "description": "This battle royale event, played on smartphones, in which players will participate in an ultimate showdown to win the tournament. Test your skills against your peers and rise above the rest to take home the Final Victory!",
+            "time": "10:00 AM - 2:30 PM",
+            "day": 2,
+            "participants_per_team": "4 players + 1 sub",
+            "registration_fee": "Rs.500",
+            "prize_amount": {
+                "1st": "Rs.3000",
+                "2nd": "Rs.1500"
+            },
+            "coordinator": [
+                {
+                    "name": "Suraj",
+                    "contact": "9632795637"
+                },
+                {
+                    "name": "Phanish",
+                    "contact": "9632513981"
+                }
+            ],
+            "venue": "CSE block",
+            "registration_link": "https://forms.gle/example-bgmi"
+        },
+        {
+            "id": 27,
+            "event_name": "Suicide Chess Saga",
+            "category": "Chess",
+            "common_name": "Suicide Chess",
+            "description": "Senet is the board game of Chess. It is an abstract strategy game that involves no hidden information and no elements of chance. Let’s churn those brain muscles to do the opposite!",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Admin Block Classroom",
+            "day": "1",
+            "time": "3:00 PM - 5:00 PM",
+            "coordinator": [
+                {
+                    "name": "Manas",
+                    "contact": "951386627"
+                },
+                {
+                    "name": "Phanish",
+                    "contact": "9632513981"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-suicide-chess"
+        },
+        {
+            "id": 28,
+            "event_name": "The Sphinx’s Test - Fandom Movie Quiz",
+            "category": "Quiz",
+            "common_name": "Fandom Movie Quiz",
+            "description": "Oedipus answered the Sphinx’s riddles with his wisdom and was granted passage through its entrance. Come forth with your intellectual prowess, and outwit your peers.",
+            "participants_per_team": "2",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "ECE Hi-Tech Lab",
+            "day": "2",
+            "time": "1:00 PM - 3:00 PM",
+            "coordinator": [
+                {
+                    "name": "Manas",
+                    "contact": "9513836627"
+                },
+                {
+                    "name": "Shreya",
+                    "contact": "9480674783"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-fandom-movie-quiz"
+        },
+        {
+            "id": 29,
+            "event_name": "The Sphinx’s Test - Anime Quiz",
+            "category": "Quiz",
+            "common_name": "Anime Quiz",
+            "description": "An exhilarating anime quiz, challenging fans with diverse  questions spanning genres, characters, and plotlines. From classic series to modern hits, it tests knowledge on iconic moments, unique powers, and intricate storylines.",
+            "participants_per_team": "2",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "CSE Seminar Hall",
+            "day": 1,
+            "time": "2:00 PM - 4:30 PM",
+            "coordinator": [
+                {
+                    "name": "Pratheek",
+                    "contact": "9986399715"
+                },
+                {
+                    "name": "Aditya Shetty",
+                    "contact" : "7892533325"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-anime-quiz"
+        },
+        {
+            "id": 30,
+            "event_name": "Masking Ritual - Face Painting",
+            "category": "Face Painting",
+            "common_name": "Face Painting",
+            "description": "The Ennead of Egypt wore masks to emphasize divinity and power! Create your own mask and transcend to the divine realm.",
+            "participants_per_team": "2",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Gallery",
+            "day": "2",
+            "time": "11:00 AM - 1:00 PM",
+            "coordinator": [
+                {
+                    "name": "Rachitha",
+                    "contact": "8792522796"
+                },
+                {
+                    "name": "Kaushik",
+                    "contact": "9110485949"
+                },
+                {
+                    "name": "Sujal",
+                    "contact": "7975282961"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-face-painting"
+        },
+        {
+            "id": 31,
+            "event_name": "Lens of Divine - Photography",
+            "category": "Photography",
+            "common_name": "Photography",
+            "description": "Do you have the eye to show the world what it can't see? Pick your divine lens and showcase  your skills! Capture the best moments yet!",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Gallery",
+            "day": "1",
+            "time": "10:00 AM - 11:00 AM",
+            "coordinator": [
+                {
+                    "name": "Suraj",
+                    "contact": "9632795637"
+                },
+                {
+                    "name": "Umakanth",
+                    "contact": "8088792576"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-photography"
+        },
+        {
+            "id": 32,
+            "event_name": "Mythological Reincarnation - Clay Modelling",
+            "category": "Clay Modelling",
+            "common_name": "Clay Modelling",
+            "description": "Come put your artistry to the test by participating in Mythological Reincarnation and use clay as your medium of presentation.",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Mechanical Foundry Lab",
+            "day": "1",
+            "time": "12:00 PM - 2:00 PM",
+            "time_limit": "3 hrs",
+            "coordinator": [
+                {
+                    "name": "Surabhi Ramachandra",
+                    "contact": "9019975113"
+                },
+                {
+                    "name": "Prajwal",
+                    "contact": "9535739657"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-clay-modelling"
+        },
+        {
+            "id": 33,
+            "event_name": "Reel Featuring Pantheon",
+            "category": "Reel",
+            "common_name": "Reel Featuring Pantheon",
+            "description": "Impress dionysus with modern day theater! The god of entertainment awaits your submission of merriment.",
+            "participants_per_team": "1",
+            "registration_fee": "Rs.100",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Gallery",
+            "day": "1",
+            "time": "10:00 AM - 11:00 AM",
+            "coordinator": [
+                {
+                    "name": "Adithya",
+                    "contact": "7795075816"
+                },
+                {
+                    "name": "Jayanth",
+                    "contact": "7022744825"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-reel-featuring-pantheon"
+        },
+        {
+            "id": 34,
+            "event_name": "Quest for Mythoros - Where is Waldo?",
+            "category": "Outdoor",
+            "common_name": "Where is Waldo?",
+            "description": "Mythoros was a mischievous deity who possesses the power of camouflage. He can seamlessly blend into vibrant settings making it hard for others to find him.",
+            "participants_per_team": 2,
+            "registration_fee": "Rs.150",
+            "prize_amount": {
+                "1st": "Rs.1000",
+                "2nd": "Rs.500"
+            },
+            "venue": "Outdoor",
+            "day": "1",
+            "time": "12:30 PM - 2:00 PM",
+            "coordinator": [
+                {
+                    "name": "Suhith",
+                    "contact": "8310347663"
+                },
+                {
+                    "name": "Manushree",
+                    "contact": "7975294599"
+                }
+            ],
+            "registration_link": "https://forms.gle/example-where-is-waldo"
+        }
+    ]
+}
