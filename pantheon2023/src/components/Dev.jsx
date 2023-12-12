@@ -4,7 +4,7 @@ import pan from "../assets/devs/pan.webp";
 import shod from "../assets/devs/shod.webp";
 import tush from "../assets/devs/tush.webp";
 import sub from "../assets/heads/16.webp";
-import apr from "../assets/devs/tush.webp";
+import apr from "../assets/devs/apr.webp";
 import aub from "../assets/devs/aub.webp";
 import bhu from "../assets/devs/bhu.webp";
 
