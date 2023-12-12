@@ -30,7 +30,7 @@ function Cards({ searchTerm, selectedDay }) {
                                 return (
                                     <motion.div layout animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} className="information [ card ]" key={event.id}>
                                         <img
-                                            src={`src/assets/event_posters/${event.id}.jpg`}
+                                            src={`/event_posters/${event.id}.webp`}
                                             alt=""
                                             className="mx-auto h-full w-full object-cover"
                                         />

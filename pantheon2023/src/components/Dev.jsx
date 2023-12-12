@@ -5,7 +5,8 @@ import shod from "../assets/devs/shod.webp";
 import tush from "../assets/devs/tush.webp";
 import sub from "../assets/heads/16.webp";
 import apr from "../assets/devs/tush.webp";
-import aub from "../assets/devs/aub.png";
+import aub from "../assets/devs/aub.webp";
+import bhu from "../assets/devs/bhu.webp";
 
 import {
   motion,
@@ -74,6 +75,11 @@ export const Dev = () => {
       id: 7,
       name: " Adhvith U B",
       image: aub,
+    },
+    {
+      id: 8,
+      name: " D Bhushan",
+      image: bhu,
     },
   ];
 
