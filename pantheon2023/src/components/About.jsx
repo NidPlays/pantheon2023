@@ -53,7 +53,12 @@ function About() {
               <path d="M12 2 C7.03 2 3 6.03 3 11 C3 16.55 12 22 12 22 C12 22 21 16.55 21 11 C21 6.03 16.97 2 12 2 Z"></path>
               <circle cx="12" cy="11" r="4"></circle>
             </svg>
-            <span className="text-white">RNS Institute Of Technology</span>
+            <a
+              className="text-white"
+              href="https://maps.app.goo.gl/dCP9abAVPypanfcR9"
+            >
+              RNS Institute Of Technology
+            </a>
           </div>
         </div>
         {/* Buttons */}
