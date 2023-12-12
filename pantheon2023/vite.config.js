@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [react()],
   base: '/',
   assetsInclude: ['**/*.JPG'],
+  assetsDir: 'src/assets',
 })

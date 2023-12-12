@@ -41,8 +41,8 @@ function EventDetails({ id }) {
                         </div>
                         <div className='my-12 flex flex-col items-center justify-center'>
                             <img
-                                className='rounded-xl w-1/2 object-fit'
-                                src={brodhav}
+                                className='rounded-xl max-w-md h-auto object-fit mx-auto'
+                                src={`/src/assets/event_posters/${event.id}.jpg`}
                                 alt={'article cover'}
                                 priority
                             />

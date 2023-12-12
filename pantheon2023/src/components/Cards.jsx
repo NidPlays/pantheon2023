@@ -30,9 +30,9 @@ function Cards({ searchTerm, selectedDay }) {
                                 return (
                                     <motion.div layout animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} className="information [ card ]" key={event.id}>
                                         <img
-                                            src={Image}
+                                            src={`src/assets/event_posters/${event.id}.jpg`}
                                             alt=""
-                                            className="h-48 relative z-50 inline-flex lg:h-48  xl:h-72 "
+                                            className="mx-auto h-full w-full object-cover"
                                         />
                                         <div className="text-lg p-2">{event.event_name.split("-", 1)[0]}</div>
                                         <div className="text-sm text-gray-50 p-2">
