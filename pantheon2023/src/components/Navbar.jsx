@@ -33,6 +33,9 @@ export default function NavBar() {
                                 <Link to="/events">Events</Link>
                             </li>
                             <li className="text-white ">
+                                <Link to="/schedule">Schedule</Link>
+                            </li>
+                            <li className="text-white ">
                                 <Link to="/aboutus">About us</Link>
                             </li>
                             <li className="text-white ">

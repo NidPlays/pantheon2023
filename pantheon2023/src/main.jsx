@@ -10,6 +10,7 @@ import Error from '../src/components/Error.jsx'
 import EventDetailsPage from './pages/EventDetailsPage.jsx';
 import ThankYou from './components/ThankYou.jsx';
 import './index.css'
+import EventSchedulePage from './pages/EventSchedulePage.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/aboutus" element={<AboutUsPage />} />
+                <Route path='/schedule' element={<EventSchedulePage/>}/>
                 <Route path="events/:id" element={<EventDetailsPage />} />
                 <Route path="/thankyou" element={<ThankYou />} />
                 <Route path="*" element={<Error />} />
