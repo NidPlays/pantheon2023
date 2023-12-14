@@ -1,0 +1,33 @@
+/* Add this to your CSS file */
+@keyframes slidehorizontal {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+        /* Change from -100% to 100% to reverse direction */
+    }
+}
+
+/* Apply the animation to the element with the animate-slidehorizontal class */
+.animate-slidehorizontal {
+    animation: slidehorizontal 10s linear infinite;
+    /* Adjust duration and timing function as needed */
+}
+
+/* Add this class to reverse the direction */
+/* .animate-slidehorizontal.reverse {
+    animation: slidehorizontal-reverse 10s linear infinite;
+} */
+
+/* Define the reversed keyframes */
+/* @keyframes slidehorizontal-reverse {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+} */
