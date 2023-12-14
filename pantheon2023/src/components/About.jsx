@@ -53,7 +53,12 @@ function About() {
               <path d="M12 2 C7.03 2 3 6.03 3 11 C3 16.55 12 22 12 22 C12 22 21 16.55 21 11 C21 6.03 16.97 2 12 2 Z"></path>
               <circle cx="12" cy="11" r="4"></circle>
             </svg>
-            <span className="text-white">RNS Institute Of Technology</span>
+            <a
+              className="text-white"
+              href="https://maps.app.goo.gl/dCP9abAVPypanfcR9"
+            >
+              RNS Institute Of Technology
+            </a>
           </div>
         </div>
         {/* Buttons */}
@@ -104,7 +109,7 @@ function About() {
             </h1>
             <div className="text-center mt-4">
               <button className="inline-flex h-12 animate-background-shine items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                <a href="https://forms.gle/iH3YkyWyo2D4Sqwh7">Click Me</a>
+                <a href="https://forms.gle/Ys5DY1qnVsazhomb7">Click Me</a>
               </button>
             </div>
           </div>

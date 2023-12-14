@@ -9,7 +9,7 @@ import Team from "../components/Team";
 import campus from "../assets/abtus/campus.jpg";
 import pantheon from "../assets/Pantheon.png";
 import parichay from "../assets/abtus/parichayy.webp";
-import cat from "../assets/CAT-LOGO-WHITE.png";
+import cat from "../assets/CAT.webp";
 
 function AboutUsPage() {
   useEffect(() => {
@@ -50,21 +50,13 @@ function AboutUsPage() {
               </p>
             </div>
             <div className="w-full lg:w-8/12">
-              <img
-                className="w-full"
-                src={campus}
-                alt="RNSIT logo"
-              />
+              <img className="w-full" src={campus} alt="RNSIT logo" />
             </div>
           </div>
 
           <div className="flex min-[280px]:flex-col place-items-center justify-between gap-8 pt-20 lg:flex-row">
             <div className="w-full lg:w-8/12">
-              <img
-                className="w-full"
-                src={pantheon}
-                alt="Pantheon logo"
-              />
+              <img className="w-full" src={pantheon} alt="Pantheon logo" />
             </div>
             <div className="flex flex-col max-[1024px]:-order-1 justify-center w-full lg:w-5/12">
               <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
@@ -108,20 +100,12 @@ function AboutUsPage() {
               </p>
             </div>
             <div className="w-full lg:w-8/12 ">
-              <img
-                className="w-full"
-                src={parichay}
-                alt="Parichay Logo"
-              />
+              <img className="w-full" src={parichay} alt="Parichay Logo" />
             </div>
           </div>
           <div className="flex min-[280px]:flex-col place-items-center justify-between gap-8 pt-20 lg:flex-row">
             <div className="w-full lg:w-8/12 ">
-              <img
-                className="w-full"
-                src={cat}
-                alt="CAT Logo"
-              />
+              <img className="w-full" src={cat} alt="CAT Logo" />
             </div>
             <div className="flex flex-col max-[1024px]:-order-3 justify-center w-full lg:w-5/12">
               <h1 className="pb-4 text-3xl font-bold leading-9 text-white lg:text-4xl">
