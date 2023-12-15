@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from 'react-helmet-async';
+import OG from "../../public/OG.png";
 
 export const SEO = ({ title, description, keywords, meta = [], canonicalUrl }) => {
   // limiting description to 170 characters ( SEO best practice )
@@ -20,7 +21,7 @@ export const SEO = ({ title, description, keywords, meta = [], canonicalUrl }) =
     { property: "og:url", content: "https://pantheon2023.nidish.xyz/" }, //change after configuring domain
     { property: "og:title", content: title },
     { property: "og:description", content: limitedDescription },
-    { property: "og:image", content: "https://i.postimg.cc/tRVs1r3x/OG.png" }, //testing
+    { property: "og:image", content: OG }, //testing
   ];
 
   const allMeta = [...staticMeta, ...dynamicMeta , ...ogMeta];
