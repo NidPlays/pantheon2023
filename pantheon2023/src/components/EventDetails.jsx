@@ -49,14 +49,14 @@ function EventDetails({ id }) {
         <article className="col-span-9 mt-12 justify-center flex">
           <div className="">
             <div>
-              <h1 className="text-white font-bold text-4xl md:text-5xl xl:text-6xl">
+              <h1 className="text-white font-bold text-4xl md:text-5xl xl:text-6xl px-12">
                 {event.event_name}
                 <span className="text-primary text-[red]">.</span>
               </h1>
 
               <div className="text-center">
                 <div className="flex items-center justify-center mb-2 space-x-2 text-lg">
-                  <p className="m-0 text-lg mt-4 md:text-xl">
+                  <p className="m-0 text-lg mt-4 md:text-xl px-10">
                     {event.common_name}
                   </p>
                   {/* <p className='m-0 mt-2'>•</p> */}
@@ -65,7 +65,7 @@ function EventDetails({ id }) {
             </div>
             <div className="my-12 flex flex-col items-center justify-center">
               <img
-                className="rounded-xl max-w-md h-auto object-fit mx-auto"
+                className="rounded-xl max-w-md h-auto object-fit mx-auto px-14"
                 src={`/event_posters/${event.id}.webp`}
                 alt={"article cover"}
                 priority
