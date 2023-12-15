@@ -9,11 +9,11 @@ const EventSchedulePage = () => {
       <main className=" bg-[#151515] text-white p-8 max-w-7xl mx-auto">
         <Navbar />
         <style>{"body { background-color: #151515; }"}</style>
-        <h1 className="font-poppins text-4xl mb-8">Schedule</h1>
+        <h1 className="font-poppins text-4xl mb-8 px-4 max-w-7xl md:px-8">Schedule</h1>
 
         {/* First Section */}
-        <section className="h-auto mb-8">
-          <h2 className="text-red-500 font-poppins font-semibold text-2xl">
+        <section className="h-auto mb-8 px-4 max-w-7xl md:px-8">
+          <h2 className="text-amber-600 font-poppins font-semibold text-2xl">
             15 December
           </h2>
           <br />
@@ -184,8 +184,8 @@ const EventSchedulePage = () => {
           </div>
         </section>
 
-        <section className="h-auto mb-8">
-          <h2 className="text-red-500 font-poppins font-semibold text-2xl">
+        <section className="h-auto mb-8 px-4 max-w-7xl md:px-8">
+          <h2 className="text-amber-600 font-poppins font-semibold text-2xl">
             16 December
           </h2>
           <br />
