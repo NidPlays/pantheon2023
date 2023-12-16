@@ -9,7 +9,9 @@ const EventSchedulePage = () => {
       <main className=" bg-[#151515] text-white p-8 max-w-7xl mx-auto">
         <Navbar />
         <style>{"body { background-color: #151515; }"}</style>
-        <h1 className="font-poppins text-4xl mb-8 px-4 max-w-7xl md:px-8">Schedule</h1>
+        <h1 className="font-poppins text-4xl mb-8 px-4 max-w-7xl md:px-8">
+          Schedule
+        </h1>
 
         {/* First Section */}
         <section className="h-auto mb-8 px-4 max-w-7xl md:px-8">
@@ -191,14 +193,26 @@ const EventSchedulePage = () => {
           <br />
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">
-                Western Vocal Solo music
-              </h3>
-              <h2 className="font-poppins text-lg">Admin Block Seminar Hall</h2>
+              <h3 className="font-poppins font-semibold text-lg">Shark tank</h3>
+              <h2 className="font-poppins text-lg">MBA Seminar Hall</h2>
 
-              <p className="text-gray-300">1:00 PM - 3:00 PM</p>
+              <p className="text-gray-300">10:00 AM - 1:00 PM</p>
             </article>
+            <article className="pb-4 border-b border-gray-700">
+              <h3 className="font-poppins font-semibold text-lg">
+                Beat Boxing{" "}
+              </h3>
+              <h2 className="font-poppins text-lg">Main Stage</h2>
 
+              <p className="text-gray-300">10:00 AM - 12:00 PM</p>
+            </article>
+            <article className="pb-4 border-b border-gray-700">
+              <h3 className="font-poppins font-semibold text-lg">
+                Indian Cinema Music
+              </h3>
+              <h2 className="font-poppins text-lg">EC Hi-Tech Lab</h2>
+              <p className="text-gray-300">10:00 AM - 12:00 PM</p>
+            </article>
             <article className="pb-4 border-b border-gray-700">
               <h3 className="font-poppins font-semibold text-lg">
                 Dumb charades
@@ -207,16 +221,30 @@ const EventSchedulePage = () => {
 
               <p className="text-gray-300">10:00 AM - 12:00 PM</p>
             </article>
-
             <article className="pb-4 border-b border-gray-700">
               <h3 className="font-poppins font-semibold text-lg">
-                Fandom Quiz
+                Valorant Final{" "}
               </h3>
-              <h2 className="font-poppins text-lg">EC Hi-Tech Lab</h2>
+              <h2 className="font-poppins text-lg">Online</h2>
 
-              <p className="text-gray-300">1:00 PM - 3:00 PM</p>
+              <p className="text-gray-300">10:00 PM - 3:00 PM</p>
             </article>
+            <article className="pb-4 border-b border-gray-700">
+              <h3 className="font-poppins font-semibold text-lg">
+                Intrumental music
+              </h3>
+              <h2 className="font-poppins text-lg">Admin Block Seminar Hall</h2>
 
+              <p className="text-gray-300">10:00 AM - 1:00 PM</p>
+            </article>
+            <article className="pb-4 border-b border-gray-700">
+              <h3 className="font-poppins font-semibold text-lg">
+                Street play
+              </h3>
+              <h2 className="font-poppins text-lg">Basket Ball Court</h2>
+
+              <p className="text-gray-300">11:00 AM - 2:00 PM</p>
+            </article>
             <article className="pb-4 border-b border-gray-700">
               <h3 className="font-poppins font-semibold text-lg">
                 Face painting
@@ -226,46 +254,45 @@ const EventSchedulePage = () => {
               <p className="text-gray-300">11:00 AM - 1:00 PM</p>
               {/*<img src="https://images.fineartamerica.com/images-medium-large-5/maroon-bells-aspen-colorado-black-and-white-photography-by-sai.jpg" alt="Black and white photo of a lake" className="w-full rounded-md" />*/}
             </article>
-
             <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">Shark tank</h3>
+              <h3 className="font-poppins font-semibold text-lg">BGMI </h3>
+              <h2 className="font-poppins text-lg">CSE Block</h2>
+
+              <p className="text-gray-300">10:00 AM - 2:30 PM</p>
+            </article>
+            <article className="pb-4 border-b border-gray-700">
+              <h3 className="font-poppins font-semibold text-lg">Smoked 23</h3>
+              <h2 className="font-poppins text-lg">Mech Quadrangle</h2>
+
+              <p className="text-gray-300">11:00 PM - 3:30 PM</p>
+            </article>
+            <article className="pb-4 border-b border-gray-700">
+              <h3 className="font-poppins font-semibold text-lg">Stand Up</h3>
               <h2 className="font-poppins text-lg">MBA Seminar Hall</h2>
 
-              <p className="text-gray-300">10:00 AM - 1:00 PM</p>
+              <p className="text-gray-300">1:00 PM - 3:00 PM</p>
             </article>
-
             <article className="pb-4 border-b border-gray-700">
               <h3 className="font-poppins font-semibold text-lg">
-                Semi Classical Solo
-              </h3>
-              <h2 className="font-poppins text-lg">CS Edusat Hall</h2>
-
-              <p className="text-gray-300">12:00 PM - 2:00 PM</p>
-            </article>
-
-            <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">
-                Intrumental music
+                Western Vocal Solo music
               </h3>
               <h2 className="font-poppins text-lg">Admin Block Seminar Hall</h2>
 
-              <p className="text-gray-300">10:00 AM - 1:00 PM</p>
+              <p className="text-gray-300">1:00 PM - 3:00 PM</p>
             </article>
-
-            <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">
-                Street play
-              </h3>
-              <h2 className="font-poppins text-lg">Basket Ball Court</h2>
-
-              <p className="text-gray-300">11:00 AM - 2:00 PM</p>
-            </article>
-
             <article className="pb-4 border-b border-gray-700">
               <h3 className="font-poppins font-semibold text-lg">
                 Beg Borrow Steal{" "}
               </h3>
               <h2 className="font-poppins text-lg">Mech Classroom</h2>
+
+              <p className="text-gray-300">12:00 PM - 2:00 PM</p>
+            </article>
+            <article className="pb-4 border-b border-gray-700">
+              <h3 className="font-poppins font-semibold text-lg">
+                Semi Classical Solo
+              </h3>
+              <h2 className="font-poppins text-lg">CS Edusat Hall</h2>
 
               <p className="text-gray-300">12:00 PM - 2:00 PM</p>
             </article>
@@ -280,49 +307,12 @@ const EventSchedulePage = () => {
             </article>
 
             <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">Stand Up</h3>
-              <h2 className="font-poppins text-lg">MBA Seminar Hall</h2>
-
-              <p className="text-gray-300">1:00 PM - 3:00 PM</p>
-            </article>
-
-            <article className="pb-4 border-b border-gray-700">
               <h3 className="font-poppins font-semibold text-lg">
-                Beat Boxing{" "}
-              </h3>
-              <h2 className="font-poppins text-lg">Main Stage</h2>
-
-              <p className="text-gray-300">10:00 AM - 12:00 PM</p>
-            </article>
-
-            <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">
-                Indian Cinema Music
+                Fandom Quiz
               </h3>
               <h2 className="font-poppins text-lg">EC Hi-Tech Lab</h2>
 
-              <p className="text-gray-300">10:00 AM - 12:00 PM</p>
-            </article>
-
-            <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">Valorant </h3>
-              <h2 className="font-poppins text-lg">Online</h2>
-
-              <p className="text-gray-300">12:00 PM - 2:00 PM</p>
-            </article>
-
-            <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">BGMI </h3>
-              <h2 className="font-poppins text-lg">CSE Block</h2>
-
-              <p className="text-gray-300">10:00 AM - 2:30 PM</p>
-            </article>
-
-            <article className="pb-4 border-b border-gray-700">
-              <h3 className="font-poppins font-semibold text-lg">Smoked 23</h3>
-              <h2 className="font-poppins text-lg">Mech Quadrangle</h2>
-
-              <p className="text-gray-300">11:00 PM - 3:30 PM</p>
+              <p className="text-gray-300">1:00 PM - 3:00 PM</p>
             </article>
           </div>
         </section>
